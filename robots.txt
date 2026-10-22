@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://irfan9056.github.io/imperial-website/sitemap.xml

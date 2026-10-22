@@ -1,0 +1,858 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Imperial Field Services LLC</title>
+<meta name="description" content="Imperial Field Services LLC: nationwide property preservation, inspections, repair and maintenance for mortgage servicers, asset managers and investors, with vetted local vendors in 28 states.">
+<link rel="icon" type="image/png" href="images/logo-mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  color-scheme: light;
+  --bg:#FFFFFF; --bg-2:#F3F6FA; --panel:#FFFFFF; --panel-2:#EEF2F8; --line:#D9E0EA;
+  --navy:#052E56; --navy-2:#0B3D73; --navy-deep:#031E3A;
+  --ink:#1B2430; --ink-2:#3C4858; --muted:#66717F;
+  --gold:#BE8F27; --gold-hi:#D9AE3F; --gold-deep:#8F6A1A; --gold-soft:#F6EBCF;
+  --ok:#2E8B57;
+  --display:"Montserrat", "Helvetica Neue", Arial, sans-serif;
+  --body:"Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --gutter:clamp(16px, 4vw, 40px);
+  --max:1200px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{background:var(--bg);color:var(--ink-2);font:16px/1.65 var(--body);margin:0;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--max);margin-inline:auto;padding-inline:var(--gutter)}
+h1,h2,h3{font-family:var(--display);color:var(--navy);font-weight:700;letter-spacing:-.01em;text-wrap:balance;margin:0}
+h2{font-size:clamp(28px,3.6vw,42px);line-height:1.12}
+h3{font-size:18px;line-height:1.3}
+p{margin:0}
+.gold{color:var(--gold)}
+.eyebrow{font:700 12px/1 var(--body);letter-spacing:.24em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:12px}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--gold)}
+.lede{font-size:18px;color:var(--ink-2);max-width:62ch}
+.mono{font-family:var(--mono);font-size:12.5px;letter-spacing:.02em}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:3px;font:700 13.5px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;cursor:pointer;border:1px solid transparent;transition:background .2s,color .2s,border-color .2s,filter .2s}
+.btn-gold{background:linear-gradient(180deg,var(--gold-hi),var(--gold) 55%,var(--gold-deep));color:#FFFFFF;text-shadow:0 1px 0 rgba(0,0,0,.18)}
+.btn-gold:hover{filter:brightness(1.08)}
+.btn-navy{background:var(--navy);color:#fff}
+.btn-navy:hover{background:var(--navy-2)}
+.btn-ghost{border-color:#9AA6B8;color:var(--navy)}
+.btn-ghost:hover{border-color:var(--gold);color:var(--gold-deep)}
+.btn-light{border-color:rgba(255,255,255,.55);color:#fff}
+.btn-light:hover{border-color:var(--gold-hi);color:var(--gold-hi)}
+.btn svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* header */
+.topbar{background:var(--navy-deep);color:#C7D3E3;font-size:13px}
+.topbar .wrap{display:flex;justify-content:space-between;gap:16px;padding-block:8px;flex-wrap:wrap}
+.topbar b{color:#fff;font-weight:600}
+.topbar .live{display:inline-flex;align-items:center;gap:8px}
+.topbar .live::before{content:"";width:7px;height:7px;border-radius:50%;background:#5BD38A;box-shadow:0 0 0 3px rgba(91,211,138,.22)}
+header.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:10px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{width:60px;height:auto}
+.brand .wm{display:flex;flex-direction:column;line-height:1}
+.brand .wm b{font:800 19px/1 var(--display);letter-spacing:.06em;color:var(--navy)}
+.brand .wm small{font:600 9.5px/1 var(--body);letter-spacing:.3em;color:var(--gold);margin-top:6px}
+nav.main{display:flex;gap:24px;align-items:center}
+nav.main a{white-space:nowrap;text-decoration:none;font-size:14px;font-weight:600;color:var(--ink-2)}
+nav.main a:hover{color:var(--gold-deep)}
+.menu-btn{display:none;background:none;border:1px solid var(--line);color:var(--navy);padding:9px 12px;border-radius:3px;font:700 12px var(--body);letter-spacing:.14em;cursor:pointer}
+@media (max-width: 1180px){
+  nav.main{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;flex-direction:column;align-items:stretch;gap:0;border-bottom:1px solid var(--line);box-shadow:0 12px 30px rgba(3,30,58,.12)}
+  nav.main.open{display:flex}
+  nav.main a{padding:14px var(--gutter);border-top:1px solid var(--line)}
+  .menu-btn{display:block}
+  header.site .btn{display:none}
+}
+
+/* hero */
+.hero{position:relative;overflow:hidden;color:#fff}
+.hero .bg{position:absolute;inset:0;background:url(images/hero.jpg) center 40%/cover no-repeat}
+.hero .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,30,58,.96) 0%,rgba(5,46,86,.88) 45%,rgba(5,46,86,.45) 100%),linear-gradient(0deg,rgba(3,30,58,.9) 0%,rgba(3,30,58,0) 40%)}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.25fr .85fr;gap:48px;align-items:end;padding-block:clamp(56px,9vw,112px) clamp(48px,6vw,80px)}
+.hero .eyebrow{color:var(--gold-hi)}
+.hero .eyebrow::before{background:var(--gold-hi)}
+.hero h1{color:#fff;font-size:clamp(34px,5.2vw,62px);line-height:1.06;margin-block:22px 22px;font-weight:800}
+.hero h1 em{font-style:normal;background:linear-gradient(180deg,#F0CB63,var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .lede{color:#D6E0EE}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.hero .stats{display:flex;gap:28px;margin-top:34px;flex-wrap:wrap}
+.hero .stats div b{display:block;font:800 30px/1 var(--display);color:#fff}
+.hero .stats div span{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-hi)}
+.hero-card{background:rgba(255,255,255,.96);color:var(--ink);border-top:3px solid var(--gold);padding:22px 22px 18px;border-radius:3px;box-shadow:0 20px 50px rgba(3,30,58,.35)}
+.hero-card .hd{display:flex;justify-content:space-between;align-items:baseline;gap:10px;color:var(--muted)}
+.hero-card .hd b{font:700 13px var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--navy)}
+.hero-card ol{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:0}
+.hero-card li{display:grid;grid-template-columns:18px 1fr auto;gap:12px;align-items:start;padding:11px 0;border-top:1px solid var(--line);font-size:14.5px;color:var(--ink)}
+.hero-card li .dot{width:10px;height:10px;border-radius:50%;border:2px solid var(--gold);margin-top:6px}
+.hero-card li.done .dot{background:var(--gold)}
+.hero-card li .mono{color:var(--muted);white-space:nowrap}
+.hero-card .foot{margin-top:12px;font-size:12.5px;color:var(--muted)}
+@media (max-width: 900px){.hero .wrap{grid-template-columns:1fr}.hero .bg::after{background:linear-gradient(0deg,rgba(3,30,58,.98) 30%,rgba(5,46,86,.75) 100%)}}
+
+/* trust strip */
+.strip{background:var(--bg-2);border-bottom:1px solid var(--line)}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.strip div{padding:22px 20px;border-left:1px solid var(--line);display:flex;gap:14px;align-items:center}
+.strip div:first-child{border-left:0;padding-left:0}
+.strip svg{flex:none;width:30px;height:30px;stroke:var(--gold);fill:none;stroke-width:1.5}
+.strip b{display:block;color:var(--navy);font-size:15px}
+.strip span{font-size:13px;color:var(--muted)}
+@media (max-width: 900px){.strip .wrap{grid-template-columns:1fr 1fr}.strip div{border-left:0;padding-left:0;border-top:1px solid var(--line)}.strip div:nth-child(-n+2){border-top:0}}
+@media (max-width: 520px){.strip .wrap{grid-template-columns:1fr}.strip div:nth-child(2){border-top:1px solid var(--line)}}
+
+section{padding-block:clamp(64px,9vw,112px)}
+.sec-head{display:grid;grid-template-columns:1fr 1fr;gap:24px 48px;align-items:end;margin-bottom:48px}
+.sec-head h2{margin-top:16px}
+@media (max-width: 860px){.sec-head{grid-template-columns:1fr}}
+
+/* who we serve */
+.serve{display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--line);background:#fff}
+.serve div{padding:26px 22px;border-left:1px solid var(--line)}
+.serve div:first-child{border-left:0}
+.serve h3{font-size:16px;margin-bottom:10px}
+.serve p{font-size:14.5px}
+@media (max-width: 1000px){.serve{grid-template-columns:1fr 1fr}.serve div{border-left:0;border-top:1px solid var(--line)}.serve div:nth-child(-n+2){border-top:0}.serve div:nth-child(even){border-left:1px solid var(--line)}.serve div:last-child{grid-column:1/-1;border-left:0}}
+@media (max-width: 560px){.serve{grid-template-columns:1fr}.serve div{border-left:0!important;border-top:1px solid var(--line)!important}.serve div:first-child{border-top:0!important}}
+
+/* services */
+#services{background:var(--bg-2);border-block:1px solid var(--line)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
+.filters button{background:#fff;border:1px solid var(--line);color:var(--ink-2);padding:9px 16px;border-radius:40px;font:600 14px var(--body);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--navy);border-color:var(--navy);color:#fff}
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media (max-width: 1000px){.svc-grid{grid-template-columns:1fr 1fr}}
+@media (max-width: 640px){.svc-grid{grid-template-columns:1fr}}
+.svc{background:var(--panel);border:1px solid var(--line);display:flex;flex-direction:column;transition:border-color .2s,transform .2s,box-shadow .2s;border-radius:3px;overflow:hidden}
+.svc:hover{border-color:var(--gold);transform:translateY(-2px);box-shadow:0 14px 34px rgba(3,30,58,.10)}
+.svc .ph{aspect-ratio:16/10;overflow:hidden;position:relative}
+.svc .ph img{width:100%;height:100%;object-fit:cover}
+.svc .tag{position:absolute;left:12px;top:12px;background:var(--navy);color:var(--gold-hi);font:700 10.5px var(--body);letter-spacing:.18em;text-transform:uppercase;padding:6px 9px;border-radius:2px}
+.svc .bd{padding:22px 22px 20px;display:flex;flex-direction:column;gap:12px;flex:1}
+.svc p{font-size:15px}
+.svc ul{margin:0;padding:0;list-style:none;display:grid;gap:7px;font-size:14.5px;color:var(--ink)}
+.svc li{display:grid;grid-template-columns:14px 1fr;gap:8px}
+.svc li::before{content:"";width:6px;height:6px;background:var(--gold);transform:rotate(45deg);margin-top:9px}
+.svc .spec{margin-top:auto;padding-top:14px;border-top:1px dashed #C9D2DF;color:var(--gold-deep)}
+
+/* process */
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:0;counter-reset:s;position:relative;padding:0;margin:0}
+.steps li{list-style:none;padding:0 22px 0 0;position:relative}
+.steps li::before{counter-increment:s;content:counter(s,decimal-leading-zero);display:block;font:800 34px/1 var(--display);color:var(--gold);margin-bottom:18px}
+.steps li::after{content:"";position:absolute;top:17px;left:62px;right:14px;height:1px;background:linear-gradient(90deg,var(--gold),transparent)}
+.steps li:last-child::after{display:none}
+.steps h3{font-size:17px;margin-bottom:8px}
+.steps p{font-size:14.5px}
+.steps .mono{display:block;margin-top:10px;color:var(--muted)}
+@media (max-width: 1000px){.steps{grid-template-columns:1fr 1fr;gap:36px 24px}.steps li::after{display:none}}
+@media (max-width: 560px){.steps{grid-template-columns:1fr}}
+
+/* documentation / before-after */
+.doc{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+@media (max-width: 900px){.doc{grid-template-columns:1fr}}
+.ba{position:relative;aspect-ratio:4/3;overflow:hidden;border:1px solid var(--line);user-select:none;touch-action:none;cursor:ew-resize;max-width:100%;border-radius:3px}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ba .before{filter:grayscale(.55) brightness(.62) contrast(1.1) sepia(.35)}
+.ba .after-clip{position:absolute;inset:0;clip-path:inset(0 0 0 50%)}
+.ba .handle{position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--gold);transform:translateX(-1px)}
+.ba .handle::after{content:"◂ ▸";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:var(--gold);color:#fff;font:700 12px var(--body);padding:10px 10px;border-radius:40px;white-space:nowrap}
+.ba .lbl{position:absolute;bottom:12px;background:rgba(3,30,58,.85);color:#fff;font:700 11px var(--body);letter-spacing:.18em;text-transform:uppercase;padding:7px 10px}
+.ba .lbl.l{left:12px}.ba .lbl.r{right:12px;color:var(--gold-hi)}
+.ba .stamp{position:absolute;top:12px;right:12px;background:rgba(0,0,0,.6);color:#F6E3A8;padding:5px 8px}
+.ba input{position:absolute;inset:0;opacity:0;width:100%;height:100%;cursor:ew-resize;margin:0}
+.checklist{display:grid;gap:0;margin-top:28px;border-top:1px solid var(--line)}
+.checklist div{display:grid;grid-template-columns:120px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--line);font-size:15px}
+.checklist .mono{color:var(--gold-deep);padding-top:3px;font-weight:500}
+@media (max-width: 480px){.checklist div{grid-template-columns:1fr;gap:4px}}
+
+/* gallery */
+#work{background:var(--bg-2);border-block:1px solid var(--line)}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:210px;gap:12px}
+.gallery figure{margin:0;position:relative;overflow:hidden;background:var(--panel-2);border-radius:3px}
+.gallery figure.w2{grid-column:span 2}.gallery figure.h2{grid-row:span 2}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.gallery figure:hover img{transform:scale(1.04)}
+.gallery figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 14px 12px;background:linear-gradient(0deg,rgba(3,30,58,.92),transparent);color:#fff;font-size:14px;font-weight:500}
+.gallery figcaption span{display:block;color:var(--gold-hi);font:500 11px var(--mono);letter-spacing:.06em}
+@media (max-width: 900px){.gallery{grid-template-columns:1fr 1fr;grid-auto-rows:180px}}
+@media (max-width: 520px){.gallery{grid-template-columns:1fr}.gallery figure.w2{grid-column:auto}.gallery figure.h2{grid-row:auto}}
+
+/* compliance + compare */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+@media (max-width: 900px){.two{grid-template-columns:1fr}}
+.std{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:28px}
+.std div{border:1px solid var(--line);padding:18px;border-radius:3px;background:#fff}
+.std b{display:block;color:var(--navy);font-size:15px;margin-bottom:4px}
+.std span{font-size:14px}
+@media (max-width: 480px){.std{grid-template-columns:1fr}}
+.tbl-wrap{overflow-x:auto;margin-top:28px;border:1px solid var(--line);border-radius:3px}
+table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:460px}
+th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 11.5px var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--muted);background:var(--bg-2)}
+th.us{color:var(--navy)}
+td.us{color:var(--navy);background:var(--gold-soft);font-weight:500}
+td.us::before{content:"✓ ";color:var(--gold-deep)}
+tr:last-child td{border-bottom:0}
+
+/* areas */
+#areas{background:var(--bg-2);border-block:1px solid var(--line)}
+.map-frame{background:#fff;border:1px solid var(--line);border-radius:3px;padding:clamp(8px,2vw,20px);margin-top:36px}
+.map-frame img{width:100%;height:auto}
+.map-legend{display:flex;gap:22px;flex-wrap:wrap;align-items:center;margin-top:14px;font-size:13.5px;color:var(--muted)}
+.map-legend span{display:inline-flex;align-items:center;gap:8px}
+.map-legend i{display:inline-block;width:14px;height:14px;border-radius:2px;border:1px solid #B9C2CF;background:#DCE5F1}
+.map-legend i.pin{width:12px;height:12px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:#C9A227;border-color:var(--navy)}
+.response{margin-top:36px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.response div{background:#fff;border:1px solid var(--line);padding:16px;border-radius:3px}
+.response b{display:block;font:800 26px/1.1 var(--display);color:var(--gold-deep)}
+.response span{font-size:13.5px}
+@media (max-width: 480px){.response{grid-template-columns:1fr}}
+.area-tools{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-top:44px}
+.area-tools input{flex:1;min-width:240px;max-width:420px;background:#fff;border:1px solid var(--line);color:var(--ink);font:400 15px var(--body);padding:12px 14px;border-radius:3px}
+.area-tools input:focus{border-color:var(--gold);outline:none}
+.area-hits{margin-top:10px;font-size:14.5px;color:var(--ink-2);min-height:1.5em}
+.area-hits b{color:var(--navy)}
+.states{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
+@media (max-width: 1000px){.states{grid-template-columns:repeat(3,1fr)}}
+@media (max-width: 700px){.states{grid-template-columns:1fr 1fr}}
+@media (max-width: 440px){.states{grid-template-columns:1fr}}
+.states details{background:#fff;border:1px solid var(--line);border-radius:3px}
+.states details[open]{border-color:var(--gold)}
+.states summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.states summary::-webkit-details-marker{display:none}
+.states summary b{color:var(--navy);font-size:15px}
+.states summary small{font:500 11.5px var(--mono);color:var(--gold-deep);white-space:nowrap}
+.states summary::after{content:"+";color:var(--gold);font:400 20px/1 var(--body);margin-left:4px}
+.states details[open] summary::after{content:"−"}
+.states ul{margin:0;padding:0 16px 14px;list-style:none;columns:2;column-gap:14px;font-size:13.5px;color:var(--ink-2)}
+.states li{break-inside:avoid;padding:2px 0}
+.states li.hit{color:var(--navy);font-weight:600}
+.states details.dim{opacity:.35}
+
+/* vendors */
+#vendors{position:relative;color:#fff;background:var(--navy);overflow:hidden}
+#vendors::before{content:"";position:absolute;inset:0;background:url(images/crew.jpg) center/cover;opacity:.14}
+#vendors::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,30,58,.9),rgba(5,46,86,.7))}
+#vendors .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+@media (max-width: 900px){#vendors .wrap{grid-template-columns:1fr}}
+@media (max-width: 600px){.dl a{grid-template-columns:40px 1fr}.dl a svg{width:40px;height:40px}.dl .act{grid-column:2}}
+#vendors h2{color:#fff}
+#vendors .eyebrow{color:var(--gold-hi)}#vendors .eyebrow::before{background:var(--gold-hi)}
+#vendors .lede{color:#D6E0EE}
+.dl{display:grid;gap:12px;margin-top:28px}
+.dl a{display:grid;grid-template-columns:48px 1fr auto;gap:16px;align-items:center;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.2);padding:16px 18px;text-decoration:none;border-radius:3px;transition:background .2s,border-color .2s}
+.dl a:hover{background:rgba(255,255,255,.12);border-color:var(--gold-hi)}
+.dl a svg{width:48px;height:48px;stroke:var(--gold-hi);fill:none;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+.dl b{display:block;color:#fff;font-size:16px}
+.dl span{font-size:13.5px;color:#C7D3E3}
+.dl .act{font:700 12px var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--gold-hi);white-space:nowrap}
+.vsteps{counter-reset:v;display:grid;gap:0;margin-top:8px}
+.vsteps div{display:grid;grid-template-columns:36px 1fr;gap:14px;padding:16px 0;border-top:1px solid rgba(255,255,255,.18);font-size:15px;color:#E6ECF4}
+.vsteps div::before{counter-increment:v;content:counter(v);font:800 18px/1 var(--display);color:var(--gold-hi);padding-top:2px}
+.vsteps b{display:block;color:#fff;margin-bottom:3px}
+.reqs{margin:0;padding:0;list-style:none;display:grid;gap:8px;font-size:14.5px;color:#E6ECF4}
+.reqs li{display:grid;grid-template-columns:16px 1fr;gap:10px}
+.reqs li::before{content:"";width:7px;height:7px;background:var(--gold-hi);transform:rotate(45deg);margin-top:8px}
+.vpanel{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.2);padding:24px;border-radius:3px}
+.vpanel h3{color:#fff;margin-bottom:14px}
+
+/* faq */
+.faq{max-width:860px}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details:first-of-type{border-top:1px solid var(--line)}
+.faq summary{cursor:pointer;list-style:none;padding:20px 40px 20px 0;position:relative;color:var(--navy);font-weight:600;font-size:17px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:4px;top:14px;font:400 26px var(--body);color:var(--gold)}
+.faq details[open] summary::after{content:"−"}
+.faq details p{padding:0 0 20px;max-width:70ch}
+
+/* contact */
+#contact{position:relative;border-top:1px solid var(--line);overflow:hidden;background:var(--bg-2)}
+#contact .wrap{position:relative;display:grid;grid-template-columns:.9fr 1.1fr;gap:56px}
+@media (max-width: 900px){#contact .wrap{grid-template-columns:1fr}}
+.contact-lines{margin-top:28px;display:grid;gap:0;border-top:1px solid var(--line)}
+.contact-lines div{display:grid;grid-template-columns:80px 1fr auto;gap:12px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line)}
+.contact-lines .k{font:700 11.5px var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.contact-lines .v{color:var(--navy);font-size:15.5px;font-weight:500;word-break:break-word;min-height:1.4em}
+.copy{background:#fff;border:1px solid var(--line);color:var(--ink-2);font:600 12px var(--body);padding:6px 10px;cursor:pointer;border-radius:3px}
+.copy:hover{border-color:var(--gold);color:var(--gold-deep)}
+form.bid{background:#fff;border:1px solid var(--line);border-top:3px solid var(--gold);padding:clamp(20px,3vw,32px);display:grid;grid-template-columns:1fr 1fr;gap:16px;border-radius:3px}
+form.bid .full{grid-column:1/-1}
+form.bid label{display:grid;gap:6px;font:700 12px var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+form.bid input,form.bid select,form.bid textarea{background:#fff;border:1px solid var(--line);color:var(--ink);font:400 15px var(--body);padding:12px;border-radius:3px;width:100%;letter-spacing:0;text-transform:none}
+form.bid input:focus,form.bid select:focus,form.bid textarea:focus{border-color:var(--gold);outline:none}
+form.bid textarea{min-height:96px;resize:vertical}
+.form-note{font-size:13px;color:var(--muted)}
+.btn:disabled{opacity:.6;cursor:wait}
+.form-done{grid-column:1/-1;border:1px solid #BFE3CB;background:#EAF7EE;color:var(--ink);padding:14px 16px;font-size:14.5px;border-radius:3px}
+@media (max-width: 560px){form.bid{grid-template-columns:1fr}}
+
+a.tel{text-decoration:none;border-bottom:1px solid rgba(190,143,39,.5);transition:color .2s,border-color .2s}
+a.tel:hover{color:var(--gold-deep);border-color:var(--gold)}
+footer{background:#fff;border-top:1px solid var(--line);padding-block:56px 28px;font-size:14px}
+footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px}
+footer h4{font:700 12px var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--gold-deep);margin:0 0 14px}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+footer a{text-decoration:none;color:var(--ink-2)}
+footer a:hover{color:var(--gold-deep)}
+footer .legal{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:var(--muted);font-size:13px}
+footer .logo-big{width:190px;margin-bottom:12px}
+@media (max-width: 860px){footer .cols{grid-template-columns:1fr 1fr}}
+@media (max-width: 480px){footer .cols{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span class="live">Now accepting work orders in 28 states</span>
+    <!-- PHONE: add the company number here when ready, e.g. Call <b><a class="tel" href="tel:+1XXXXXXXXXX">(XXX) XXX-XXXX</a></b> &nbsp;·&nbsp; -->
+    <span><b><a class="tel" href="mailto:info@imperialfieldservices.com">info@imperialfieldservices.com</a></b></span>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Imperial Field Services, home">
+      <img src="images/logo-mark.png" alt="">
+      <span class="wm"><b>IMPERIAL</b><small>FIELD SERVICES LLC</small></span>
+    </a>
+    <nav class="main" id="nav">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#documentation">Photo Standard</a>
+      <a href="#work">Our Work</a>
+      <a href="#compliance">Compliance</a>
+      <a href="#areas">Coverage Map</a>
+      <a href="#vendors">Vendors</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-gold" href="#contact">Request a Bid</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">MENU</button>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" style="padding:0">
+  <div class="bg" role="img" aria-label="Single-family home at dusk"></div>
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Property Preservation · Inspections · Repair · Maintenance</div>
+      <h1>Nationwide field services, <em>one accountable vendor</em></h1>
+      <p class="lede">Imperial Field Services delivers property preservation, inspections, repairs and maintenance for mortgage servicers, asset managers, investors and property managers. Our vetted local vendors cover more than 600 counties across 28 states, and every order is completed to spec with date-stamped photo proof.</p>
+      <div class="ctas">
+        <a class="btn btn-gold" href="#contact">Request a Bid</a>
+        <a class="btn btn-light" href="#areas">See Coverage Map</a>
+      </div>
+      <div class="stats">
+        <div><b>28</b><span>States</span></div>
+        <div><b>600+</b><span>Counties covered</span></div>
+        <div><b>24 to 72 hr</b><span>Typical turnaround</span></div>
+      </div>
+    </div>
+    <aside class="hero-card" aria-label="Example work order timeline">
+      <div class="hd"><b>Work Order Tracker</b><span class="mono">WO-31042 · sample</span></div>
+      <ol>
+        <li class="done"><span class="dot"></span><span>Order received &amp; assigned to local vendor</span><span class="mono">Day 0 · 9:12a</span></li>
+        <li class="done"><span class="dot"></span><span>Initial secure, rekey, lockbox</span><span class="mono">Day 1</span></li>
+        <li class="done"><span class="dot"></span><span>Winterized, pressure tested</span><span class="mono">Day 1</span></li>
+        <li><span class="dot"></span><span>Trash-out: 18 cu yd approved</span><span class="mono">Day 3</span></li>
+        <li><span class="dot"></span><span>Photos QC'd, invoice closed</span><span class="mono">Day 3</span></li>
+      </ol>
+      <p class="foot">Clients see status, photos and bids on every order.</p>
+    </aside>
+  </div>
+</section>
+
+<div class="strip">
+  <div class="wrap">
+    <div><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><p><b>Vetted Vendor Network</b><span>Background-checked, insured, trained on your SOPs</span></p></div>
+    <div><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M3 9h18M8 14h8"/></svg><p><b>HUD &amp; GSE Guidelines</b><span>FHA, Fannie Mae, Freddie Mac, VA</span></p></div>
+    <div><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="14" rx="1"/><circle cx="12" cy="13" r="4"/><path d="M8 6l2-2h4l2 2"/></svg><p><b>Photo-Documented</b><span>Before, during &amp; after, date-stamped</span></p></div>
+    <div><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><p><b>Fast Turnaround</b><span>Most orders completed in 24 to 72 hrs</span></p></div>
+  </div>
+</div>
+
+<section id="serve">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">Who We Are</div><h2>National reach, <span class="gold">local crews</span>, one point of contact</h2></div>
+      <p class="lede">We handle the full range of preservation and field services, from securing and winterizing vacant homes to inspections, plumbing, electrical, HVAC and general repairs. You send one order to one vendor. We dispatch a vetted local crew, check their work and send you clean, audit-ready photo sets.</p>
+    </div>
+    <div class="serve">
+      <div><h3>Mortgage Servicers</h3><p>Pre-conveyance work, conveyance-condition repairs and first-time vacancy orders to investor guidelines.</p></div>
+      <div><h3>National Field Service Companies</h3><p>A dependable regional partner that accepts orders, meets due dates and uploads clean photo sets.</p></div>
+      <div><h3>Asset Managers &amp; REO Brokers</h3><p>Rekeys, trash-outs, rehab bids and sales cleans so listings go live on schedule.</p></div>
+      <div><h3>Investors &amp; Landlords</h3><p>Turnovers, make-ready repairs and recurring maintenance between tenants.</p></div>
+      <div><h3>Property Managers &amp; HOAs</h3><p>Vacant unit checks, grounds care, code-violation cleanup and emergency response.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">Services</div><h2>Preservation, inspections &amp; repair, <span class="gold">in detail</span></h2></div>
+      <p class="lede">Every service below is quoted, completed and documented to the same standard. Filter by category, or <a href="#contact" class="gold">send us a work order</a> for anything not listed.</p>
+    </div>
+    <div class="filters" role="group" aria-label="Filter services">
+      <button type="button" data-f="all" aria-pressed="true">All services</button>
+      <button type="button" data-f="secure" aria-pressed="false">Securing</button>
+      <button type="button" data-f="maintain" aria-pressed="false">Maintenance</button>
+      <button type="button" data-f="repair" aria-pressed="false">Repairs &amp; Rehab</button>
+      <button type="button" data-f="inspect" aria-pressed="false">Inspections</button>
+    </div>
+    <div class="svc-grid" id="svcGrid">
+
+      <article class="svc" data-c="secure">
+        <div class="ph"><img src="images/lock.jpg" alt="Door lock being changed" loading="lazy"><span class="tag">Securing</span></div>
+        <div class="bd">
+          <h3>Initial Secure &amp; Lock Changes</h3>
+          <p>We make a newly vacant property safe on the first visit so it cannot be entered, damaged or occupied.</p>
+          <ul><li>Rekey or replace entry locks, install lockboxes</li><li>Secure garage, sliders, windows &amp; crawl spaces</li><li>Post required notices and contact placards</li><li>Utility status check &amp; meter photos</li></ul>
+          <p class="spec mono">Key codes logged per client · Same-day available</p>
+        </div>
+      </article>
+
+      <article class="svc" data-c="secure">
+        <div class="ph"><img src="images/carpentry.jpg" alt="Crew cutting plywood for board-up" loading="lazy"><span class="tag">Securing</span></div>
+        <div class="bd">
+          <h3>Boarding &amp; Glass Replacement</h3>
+          <p>Broken openings get boarded or reglazed fast to stop weather damage, vandalism and squatters.</p>
+          <ul><li>Board-up to HUD standard, measured per opening</li><li>Window and slider glass replacement</li><li>Door repair or replacement</li><li>24/7 emergency response</li></ul>
+          <p class="spec mono">Openings billed by united inch · Emergency: 24 hr</p>
+        </div>
+      </article>
+
+      <article class="svc" data-c="maintain">
+        <div class="ph"><img src="images/plumbing.jpg" alt="Plumbing fixtures" loading="lazy"><span class="tag">Maintenance</span></div>
+        <div class="bd">
+          <h3>Winterization &amp; De-Winterization</h3>
+          <p>We protect plumbing and heating systems in vacant homes from freeze damage, and bring them back online for sale or move-in.</p>
+          <ul><li>Dry, wet (radiant/boiler) and steam systems</li><li>Lines blown out, antifreeze in traps &amp; toilets</li><li>Water heater drained, main shut &amp; tagged</li><li>Winterization notices posted at fixtures</li></ul>
+          <p class="spec mono">Pressure test: 30 PSI held 30 min, photo of gauge</p>
+        </div>
+      </article>
+
+      <article class="svc" data-c="maintain">
+        <div class="ph"><img src="images/empty-room.jpg" alt="Cleared room after trash-out" loading="lazy"><span class="tag">Maintenance</span></div>
+        <div class="bd">
+          <h3>Trash-Outs &amp; Debris Removal</h3>
+          <p>Full removal of personal property and debris from interiors, exteriors, garages and sheds, hauled and disposed of properly.</p>
+          <ul><li>Interior &amp; exterior debris, estimated by cubic yard</li><li>Personal property inventory when required</li><li>Hazardous items &amp; auto removal coordinated</li><li>Dump receipts provided with every load</li></ul>
+          <p class="spec mono">Bid by cu yd · Before/after photos of every room</p>
+        </div>
+      </article>
+
+      <article class="svc" data-c="maintain">
+        <div class="ph"><img src="images/lawn.jpg" alt="Maintained lawn and home" loading="lazy"><span class="tag">Maintenance</span></div>
+        <div class="bd">
+          <h3>Lawn, Grounds &amp; Snow</h3>
+          <p>Curb appeal and code compliance for vacant homes, on a recurring schedule or a one-time initial cut.</p>
+          <ul><li>Initial and recurring grass cuts, edging, blowing</li><li>Shrub &amp; tree trimming, vine removal</li><li>Snow removal and de-icing</li><li>Code violation and HOA notice cleanup</li></ul>
+          <p class="spec mono">Recurring cycles: 14 or 21 day · Lot size in sq ft</p>
+        </div>
+      </article>
+
+      <article class="svc" data-c="maintain">
+        <div class="ph"><img src="images/cleaning.jpg" alt="Technician cleaning windows" loading="lazy"><span class="tag">Maintenance</span></div>
+        <div class="bd">
+          <h3>Sales Cleans &amp; Maid Service</h3>
+          <p>Market-ready cleaning so a property shows well on its first day on the market.</p>
+          <ul><li>Initial deep clean &amp; recurring maid visits</li><li>Kitchens, baths, appliances &amp; windows</li><li>Odor treatment and carpet cleaning</li><li>Final walk-through photos for the listing agent</li></ul>
+          <p class="spec mono">Priced by sq ft · Listing-ready in 48 hrs</p>
+        </div>
+      </article>
+
+      <article class="svc" data-c="repair">
+        <div class="ph"><img src="images/roof.jpg" alt="Roofer working on a roof" loading="lazy"><span class="tag">Repairs</span></div>
+        <div class="bd">
+          <h3>Roof Repair, Tarping &amp; Mold</h3>
+          <p>We stop active leaks first, then repair the roof and treat moisture before mold spreads.</p>
+          <ul><li>Emergency tarping and patch repairs</li><li>Gutter cleaning and downspout repair</li><li>Moisture readings &amp; mold treatment</li><li>Sump pump install and dehumidifiers</li></ul>
+          <p class="spec mono">Tarp billed by sq ft · Moisture % photographed</p>
+        </div>
+      </article>
+
+      <article class="svc" data-c="repair">
+        <div class="ph"><img src="images/electrical.jpg" alt="Electrician working on a panel" loading="lazy"><span class="tag">Repairs</span></div>
+        <div class="bd">
+          <h3>Plumbing, Electrical &amp; HVAC</h3>
+          <p>Licensed trade repairs to get utilities safe, working and ready for inspection.</p>
+          <ul><li>Leak repair, fixture &amp; water heater replacement</li><li>Panel, outlet, GFCI and fixture repairs</li><li>Furnace and A/C service &amp; replacement</li><li>Smoke &amp; CO detector installation</li></ul>
+          <p class="spec mono">Permits pulled where required</p>
+        </div>
+      </article>
+
+      <article class="svc" data-c="repair">
+        <div class="ph"><img src="images/paint.jpg" alt="Paint roller and tray" loading="lazy"><span class="tag">Rehab</span></div>
+        <div class="bd">
+          <h3>REO Rehab, Flooring &amp; Make-Ready</h3>
+          <p>From punch lists to full renovations, we turn distressed properties into listings and rentals.</p>
+          <ul><li>Interior &amp; exterior paint, drywall, flooring &amp; carpet</li><li>Kitchen and bath updates</li><li>Handyman punch lists &amp; conveyance repairs</li><li>Itemized scope of work with line-item bids</li></ul>
+          <p class="spec mono">Bids itemized by room &amp; line item</p>
+        </div>
+      </article>
+
+      <article class="svc" data-c="inspect">
+        <div class="ph"><img src="images/inspection.jpg" alt="Inspector reviewing plans" loading="lazy"><span class="tag">Inspections</span></div>
+        <div class="bd">
+          <h3>Property Inspections &amp; Occupancy Checks</h3>
+          <p>Accurate eyes on the property, with condition reports your team can act on right away.</p>
+          <ul><li>Occupancy and vacancy verification</li><li>Exterior drive-bys &amp; interior condition reports</li><li>Damage and insurance-claim documentation</li><li>Recurring monthly property checks</li></ul>
+          <p class="spec mono">GPS &amp; time-stamped photos · Report in 24 hrs</p>
+        </div>
+      </article>
+
+      <article class="svc" data-c="secure">
+        <div class="ph"><img src="images/suburban.jpg" alt="Home with pool and yard" loading="lazy"><span class="tag">Securing</span></div>
+        <div class="bd">
+          <h3>Pool, Hazard &amp; Safety Securing</h3>
+          <p>We remove the dangers that create liability on a vacant property.</p>
+          <ul><li>Pool covers, draining and green-pool shock</li><li>Handrails, broken steps and trip hazards</li><li>Exposed wiring capped, gas lines secured</li><li>Rodent &amp; pest control</li></ul>
+          <p class="spec mono">Hazards flagged in report within 24 hrs</p>
+        </div>
+      </article>
+
+      <article class="svc" data-c="inspect">
+        <div class="ph"><img src="images/keys.jpg" alt="House model and keys" loading="lazy"><span class="tag">Inspections</span></div>
+        <div class="bd">
+          <h3>Bids, Estimates &amp; Conveyance Prep</h3>
+          <p>Clear, itemized bids with photos behind every line, so approvals move quickly.</p>
+          <ul><li>Photo-supported bids for over-allowable work</li><li>Conveyance condition checklists</li><li>Damage estimates for claims</li><li>Recommended repairs ranked by priority</li></ul>
+          <p class="spec mono">Bid turnaround: 24 to 48 hrs</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">How an Order Moves</div><h2>From work order to <span class="gold">closed invoice</span></h2></div>
+      <p class="lede">Every job follows the same five steps, so you always know where it stands and what comes next.</p>
+    </div>
+    <ol class="steps">
+      <li><h3>Order Received</h3><p>Work order accepted, assigned to a vetted local vendor and scheduled against your due date.</p><span class="mono">Same business day</span></li>
+      <li><h3>Site Visit</h3><p>Crew arrives, verifies occupancy and captures before photos of every area.</p><span class="mono">24 to 48 hrs</span></li>
+      <li><h3>Bid &amp; Approval</h3><p>Anything outside the order is bid with photos and waits for your approval.</p><span class="mono">No surprise charges</span></li>
+      <li><h3>Work Completed</h3><p>Work is completed to spec and checked by our QC team before sign-off.</p><span class="mono">QC on every order</span></li>
+      <li><h3>Photos &amp; Invoice</h3><p>Before, during and after photos are uploaded with the invoice and any receipts.</p><span class="mono">Portal or email</span></li>
+    </ol>
+  </div>
+</section>
+
+<section id="documentation" style="padding-top:0">
+  <div class="wrap doc">
+    <div class="ba" id="ba" aria-label="Before and after comparison">
+      <img class="before" src="images/staged.jpg" alt="Room before service">
+      <div class="after-clip" id="baClip"><img src="images/staged.jpg" alt="Room after service"></div>
+      <div class="handle" id="baHandle"></div>
+      <span class="lbl l">Before</span><span class="lbl r">After</span>
+      <span class="stamp mono">2026-10-14 10:42</span>
+      <input type="range" min="0" max="100" value="50" id="baRange" aria-label="Drag to compare before and after">
+    </div>
+    <div>
+      <div class="eyebrow">Our Photo Standard</div>
+      <h2 style="margin-top:16px">If it isn't photographed, it didn't happen</h2>
+      <p class="lede" style="margin-top:18px">Servicers get charged back for work they can't prove. Our vendors shoot to a fixed checklist, and our QC team reviews every set before it reaches you.</p>
+      <div class="checklist">
+        <div><span class="mono">BEFORE</span><span>Street sign and house number, every room, every hazard, all meters</span></div>
+        <div><span class="mono">DURING</span><span>Work in progress, materials used, dumpster fill levels</span></div>
+        <div><span class="mono">AFTER</span><span>Same angles as before, lock &amp; lockbox, posted notices</span></div>
+        <div><span class="mono">PROOF</span><span>Date, time &amp; GPS stamp · gauge readings · dump receipts</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">See Our Work</div><h2>Properties we <span class="gold">protect &amp; restore</span></h2></div>
+      <p class="lede">Single-family homes, multi-family buildings and investor rentals, restored and ready for the market.</p>
+    </div>
+    <div class="gallery">
+      <figure class="w2 h2"><img src="images/brick.jpg" alt="Brick single-family home, exterior" loading="lazy"><figcaption><span>REO · SINGLE-FAMILY</span>Exterior refresh, lawn restore &amp; rekey</figcaption></figure>
+      <figure><img src="images/kitchen.jpg" alt="Renovated kitchen" loading="lazy"><figcaption><span>REHAB</span>Kitchen make-ready</figcaption></figure>
+      <figure><img src="images/bedroom.jpg" alt="Clean bedroom" loading="lazy"><figcaption><span>SALES CLEAN</span>Listing-ready interior</figcaption></figure>
+      <figure class="w2"><img src="images/multifamily.jpg" alt="Multi-family building" loading="lazy"><figcaption><span>MULTI-FAMILY</span>Vacant unit turns &amp; common areas</figcaption></figure>
+      <figure><img src="images/crew.jpg" alt="Crew on job site" loading="lazy"><figcaption><span>REPAIRS</span>Structural &amp; conveyance repairs</figcaption></figure>
+      <figure><img src="images/tools.jpg" alt="Tradesman tools" loading="lazy"><figcaption><span>HANDYMAN</span>Punch lists &amp; fixes</figcaption></figure>
+      <figure class="w2"><img src="images/suburban.jpg" alt="Suburban home and lawn" loading="lazy"><figcaption><span>GROUNDS</span>Recurring lawn &amp; pool service</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="compliance">
+  <div class="wrap two">
+    <div>
+      <div class="eyebrow">Compliance &amp; Standards</div>
+      <h2 style="margin-top:16px">Built for <span class="gold">audits</span>, not just appearances</h2>
+      <p class="lede" style="margin-top:18px">Preservation work is judged against investor guidelines and allowables. We learn your requirements up front and hold every vendor to them on every order.</p>
+      <div class="std">
+        <div><b>HUD / FHA</b><span>Conveyance condition, first-time vacant and allowables</span></div>
+        <div><b>Fannie Mae &amp; Freddie Mac</b><span>Servicer property preservation requirements</span></div>
+        <div><b>VA &amp; USDA</b><span>Government-backed loan guidelines</span></div>
+        <div><b>Local Code</b><span>City ordinances, HOA rules, registration notices</span></div>
+        <div><b>Background Checks</b><span>Annual Aspen Grove (ABC) screening for every vendor</span></div>
+        <div><b>Insured Vendors</b><span>General liability certificates on file before the first order</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="eyebrow">Why Imperial</div>
+      <h2 style="margin-top:16px">What sets us apart</h2>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>What you need</th><th class="us">Imperial</th><th>Typical vendor</th></tr></thead>
+          <tbody>
+            <tr><td>Coverage</td><td class="us">28 states, 600+ counties</td><td>One metro area</td></tr>
+            <tr><td>Response time</td><td class="us">24 to 48 hr initial visit</td><td>When a crew is free</td></tr>
+            <tr><td>Photos</td><td class="us">Checklist, date &amp; GPS stamped, QC'd</td><td>A few phone shots</td></tr>
+            <tr><td>Bids</td><td class="us">Itemized, photo-backed</td><td>Lump sum</td></tr>
+            <tr><td>Guidelines</td><td class="us">HUD / GSE trained vendors</td><td>General handyman</td></tr>
+            <tr><td>Communication</td><td class="us">Status on every order</td><td>You have to call</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="areas">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">Coverage Map</div><h2>Local vendors in <span class="gold">28 states</span> and 600+ counties</h2></div>
+      <p class="lede">Every pin is a county where Imperial Field Services has a vetted vendor ready to take orders today, from the Northeast through the Southeast, the Midwest and Texas. Outside a pin, we can usually onboard a partner vendor within the week.</p>
+    </div>
+    <div class="map-frame">
+      <img src="images/coverage-map.svg" alt="Map of the United States with a marker on each of the 600+ counties covered by Imperial Field Services" loading="lazy" width="1200" height="740">
+      <div class="map-legend"><span><i class="pin"></i> County with an active vendor</span><span><i></i> State with coverage</span><span class="mono">Updated October 2026</span></div>
+    </div>
+    <div class="response">
+      <div><b>24 hr</b><span>Emergency secure &amp; board-up</span></div>
+      <div><b>48 hr</b><span>Standard initial service</span></div>
+      <div><b>72 hr</b><span>Trash-outs &amp; sales cleans</span></div>
+    </div>
+    <div class="area-tools">
+      <div><div class="eyebrow">County Lookup</div></div>
+      <input type="search" id="areaSearch" placeholder="Search a county or state, e.g. Harris or NJ" aria-label="Search counties">
+    </div>
+    <div class="area-hits" id="areaHits" aria-live="polite"></div>
+    <div class="states" id="states">
+<!--AREAS-->
+    </div>
+  </div>
+</section>
+
+<section id="vendors">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">For Contractors</div>
+      <h2 style="margin-top:16px">Join the Imperial vendor network</h2>
+      <p class="lede" style="margin-top:18px">We are always adding preservation, lawn, inspection and trade contractors in the counties we cover and the ones next to them. Steady work orders, clear specs, bi-weekly pay by direct deposit, and a team that answers the phone.</p>
+      <div class="dl">
+        <a href="docs/Imperial-Field-Services-Contractor-Agreement.pdf" download="Imperial-Field-Services-Contractor-Agreement.pdf">
+          <svg viewBox="0 0 48 48"><path d="M12 4h18l10 10v30H12z"/><path d="M30 4v10h10"/><path d="M18 24h12M18 30h12M18 36h8"/></svg>
+          <span><b>Contractor Agreement &amp; Vendor Packet</b><span>Payment terms, ACH direct deposit form, vendor information sheet and the subcontract agreement (PDF, 12 pages)</span></span>
+          <span class="act">Download ↓</span>
+        </a>
+        <a href="docs/Imperial-Field-Services-W9.pdf" download="Imperial-Field-Services-W9.pdf">
+          <svg viewBox="0 0 48 48"><path d="M12 4h18l10 10v30H12z"/><path d="M30 4v10h10"/><path d="M18 26h12M18 32h12"/><path d="M18 20h6"/></svg>
+          <span><b>Form W-9</b><span>IRS Request for Taxpayer Identification Number, with Imperial Field Services as the requester (PDF)</span></span>
+          <span class="act">Download ↓</span>
+        </a>
+      </div>
+      <div class="vsteps">
+        <div><span><b>Download &amp; complete the packet</b>Fill in the payment terms, ACH authorization, vendor information, service area and services performed pages, then sign the subcontract agreement.</span></div>
+        <div><span><b>Complete your W-9</b>Sign it with a valid SSN or EIN that matches your legal name or business name.</span></div>
+        <div><span><b>Gather your documents</b>See the checklist. Scans or clear phone photos are fine.</span></div>
+        <div><span><b>Email everything in one message</b>Send the packet and documents to <a class="tel" href="mailto:info@imperialfieldservices.com" style="color:#fff">info@imperialfieldservices.com</a>. We review within two business days and set up your portal login.</span></div>
+      </div>
+    </div>
+    <div class="vpanel">
+      <h3>What to include with your packet</h3>
+      <ul class="reqs">
+        <li>Scanned copy of your driver's license</li>
+        <li>Signed W-9 with a valid SSN or EIN</li>
+        <li>Aspen Grove background check (ABC) number and a profile screenshot showing your name, ABC number, status and expiration</li>
+        <li>Certificate of Insurance: general liability, errors &amp; omissions, and workers' compensation if you have employees, with Imperial Field Services LLC named as certificate holder</li>
+        <li>Copy of your Social Security card or EIN paperwork</li>
+        <li>Any trade licenses you hold, e.g. roofing, plumbing, HVAC, general contractor</li>
+        <li>Voided check or bank statement matching your ACH form</li>
+      </ul>
+      <h3 style="margin-top:26px">Services we assign</h3>
+      <ul class="reqs">
+        <li>Grass cut, shrubs, tree trimming &amp; snow removal</li>
+        <li>Winterization &amp; de-winterization, lock changes</li>
+        <li>Trash-outs, maid service &amp; sales cleans</li>
+        <li>Mold treatment, flooring &amp; carpet replacement</li>
+        <li>Electrical, plumbing, roofing &amp; HVAC repair</li>
+        <li>Occupancy inspections</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">FAQ</div><h2>Questions clients ask</h2></div>
+    </div>
+    <div class="faq">
+      <details open><summary>What is property preservation and field services?</summary><p>Property preservation is the work of keeping a vacant, foreclosed or bank-owned home secure, safe and in good condition until it is sold or reoccupied. That includes lock changes, winterization, debris removal, boarding and hazard removal. Field services adds the inspections, ongoing maintenance and repairs that keep the home compliant with code and investor guidelines and ready to sell or rent.</p></details>
+      <details><summary>Who actually does the work?</summary><p>Vetted local vendors in our network. Every vendor passes an annual Aspen Grove background check, carries insurance with Imperial named as certificate holder, and works to our specs and photo standard. Imperial assigns the order, checks the photos and stays accountable to you for the result.</p></details>
+      <details><summary>Do you work directly with investors and landlords, or only banks?</summary><p>Both. We take orders from servicers, national field service companies and asset managers, and also work directly with individual investors, landlords and property managers.</p></details>
+      <details><summary>How do you price work?</summary><p>Routine services use flat or unit pricing (per lock, per cubic yard, per square foot). Anything beyond the original order is bid with photos, and we don't start that work until you approve it.</p></details>
+      <details><summary>Can you work in our vendor portal?</summary><p>Yes. We accept orders and upload photos, bids and invoices in the client's own vendor management system, or by email if you prefer.</p></details>
+      <details><summary>What if a property is occupied when your vendor arrives?</summary><p>They stop, document the occupancy with photos and notes, and we report it to you right away. We don't enter or change locks on an occupied property without direction.</p></details>
+      <details><summary>I'm a contractor. How do I get work orders?</summary><p>Download the vendor packet and W-9 from the <a href="#vendors" class="gold">Vendors section</a>, complete them, and email them back with the listed documents. Once approved, you receive a portal login and orders in your service area.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Request a Bid</div>
+      <h2 style="margin-top:16px">Send us a property. <span class="gold">We'll take it from here</span></h2>
+      <p class="lede" style="margin-top:18px">Tell us the address and what it needs. You'll get an itemized bid, usually within one business day.</p>
+      <div class="contact-lines">
+        <!-- PHONE: put the number inside the span below, e.g. <a class="tel" href="tel:+1XXXXXXXXXX">(XXX) XXX-XXXX</a> -->
+        <div><span class="k">Phone</span><span class="v" id="cPhone"></span><span></span></div>
+        <div><span class="k">Email</span><span class="v" id="cEmail"><a class="tel" href="mailto:info@imperialfieldservices.com">info@imperialfieldservices.com</a></span><button class="copy" data-copy="cEmail" type="button">Copy</button></div>
+        <div><span class="k">Hours</span><span class="v">Mon to Sat, 7a to 7p · Emergencies 24/7</span><span></span></div>
+      </div>
+    </div>
+    <form class="bid" id="bidForm" novalidate>
+      <label>Full name<input id="fName" name="name" required autocomplete="name" placeholder="Jane Rivera"></label>
+      <label>Company<input id="fCo" name="company" autocomplete="organization" placeholder="Servicer, brokerage or LLC"></label>
+      <label>Email<input id="fEmail" name="email" type="email" required autocomplete="email" placeholder="you@company.com"></label>
+      <label>Phone<input id="fPhone" name="phone" type="tel" autocomplete="tel" placeholder="(555) 555-0100"></label>
+      <label class="full">Property address<input id="fAddr" name="address" required placeholder="Street, city, state, ZIP"></label>
+      <label>I am a<select id="fType" name="type"><option>Mortgage servicer</option><option>Field service company</option><option>Asset manager / REO broker</option><option>Investor / landlord</option><option>Property manager / HOA</option><option>Contractor looking for work</option><option>Other</option></select></label>
+      <label>Needed by<select id="fWhen" name="when"><option>Emergency (24 hrs)</option><option selected>Within 48 hrs</option><option>This week</option><option>Just a bid for now</option></select></label>
+      <label class="full">Services needed<textarea id="fSvc" name="services" placeholder="Describe the work you need, e.g. initial secure and rekey, winterization, trash-out of about 20 cu yd, recurring lawn cuts"></textarea></label>
+      <label class="full">Notes<textarea id="fNotes" name="notes" placeholder="Occupancy status, access / lockbox code, due date, anything we should know"></textarea></label>
+      <div class="full" style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
+        <button class="btn btn-gold" type="submit">Request My Bid</button>
+        <span class="form-note" id="formMsg">Name, email and address are required.</span>
+      </div>
+      <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+      <div class="form-done" id="formDone" hidden></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <img class="logo-big" src="images/logo.png" alt="Imperial Field Services LLC logo">
+        <p style="max-width:34ch">Nationwide property preservation, inspections, REO maintenance and repairs for the people responsible for vacant homes.</p>
+      </div>
+      <div><h4>Services</h4><ul><li><a href="#services">Initial Secure &amp; Rekey</a></li><li><a href="#services">Winterization</a></li><li><a href="#services">Trash-Outs</a></li><li><a href="#services">Lawn &amp; Grounds</a></li><li><a href="#services">Repairs &amp; Rehab</a></li><li><a href="#services">Inspections</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="#process">Our Process</a></li><li><a href="#documentation">Photo Standard</a></li><li><a href="#compliance">Compliance</a></li><li><a href="#areas">Coverage Map</a></li><li><a href="#vendors">Become a Vendor</a></li><li><a href="docs/Imperial-Field-Services-Contractor-Agreement.pdf" download>Contractor Agreement (PDF)</a></li><li><a href="docs/Imperial-Field-Services-W9.pdf" download>Form W-9 (PDF)</a></li></ul></div>
+      <div><h4>Contact</h4><ul><!-- PHONE: add <li><a class="tel" href="tel:+1XXXXXXXXXX">(XXX) XXX-XXXX</a></li> --><li><a class="tel" href="mailto:info@imperialfieldservices.com">info@imperialfieldservices.com</a></li><li>Mon to Sat, 7a to 7p</li><li>Emergencies 24/7</li><li><a href="#contact" class="gold">Request a Bid →</a></li></ul></div>
+    </div>
+    <div class="legal"><span>© 2026 Imperial Field Services LLC. All rights reserved.</span><span>Property preservation · Inspections · REO · Repairs</span></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // mobile menu
+  var btn=document.getElementById('menuBtn'), nav=document.getElementById('nav');
+  btn.addEventListener('click',function(){var o=nav.classList.toggle('open');btn.setAttribute('aria-expanded',o)});
+  nav.addEventListener('click',function(e){if(e.target.tagName==='A'){nav.classList.remove('open');btn.setAttribute('aria-expanded','false')}});
+
+  // service filters
+  var fBtns=document.querySelectorAll('.filters button'), cards=document.querySelectorAll('#svcGrid .svc');
+  fBtns.forEach(function(b){b.addEventListener('click',function(){
+    fBtns.forEach(function(x){x.setAttribute('aria-pressed',x===b)});
+    var f=b.dataset.f; cards.forEach(function(c){c.hidden=!(f==='all'||c.dataset.c===f)});
+  })});
+
+  // before / after slider
+  var r=document.getElementById('baRange'), clip=document.getElementById('baClip'), h=document.getElementById('baHandle');
+  function setBA(v){clip.style.clipPath='inset(0 0 0 '+v+'%)';h.style.left=v+'%'}
+  r.addEventListener('input',function(){setBA(r.value)}); setBA(r.value);
+
+  // copy buttons
+  document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){
+    var el=document.getElementById(b.dataset.copy), t=el.textContent;
+    function sel(){var s=window.getSelection(),rg=document.createRange();rg.selectNodeContents(el);s.removeAllRanges();s.addRange(rg);b.textContent='Selected'}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(function(){b.textContent='Copied'},sel)}else sel();
+    setTimeout(function(){b.textContent='Copy'},1800);
+  })});
+
+  // county lookup
+  var q=document.getElementById('areaSearch'), hits=document.getElementById('areaHits');
+  var stateEls=Array.prototype.slice.call(document.querySelectorAll('#states details'));
+  var rows=[]; stateEls.forEach(function(d){
+    var st=d.dataset.st, name=d.dataset.name;
+    d.querySelectorAll('li').forEach(function(li){rows.push({li:li,d:d,st:st,name:name,txt:li.textContent.toLowerCase()})});
+  });
+  function search(){
+    var v=q.value.trim().toLowerCase();
+    rows.forEach(function(r){r.li.classList.remove('hit')});
+    if(!v){stateEls.forEach(function(d){d.classList.remove('dim');d.open=false});hits.textContent='';return}
+    var n=0, states={};
+    rows.forEach(function(r){
+      var ok=r.txt.indexOf(v)>-1 || r.st.toLowerCase()===v || r.name.toLowerCase().indexOf(v)>-1;
+      if(ok){r.li.classList.add('hit');n++;states[r.st]=1}
+    });
+    stateEls.forEach(function(d){var on=!!states[d.dataset.st];d.classList.toggle('dim',!on);d.open=on});
+    hits.innerHTML=n?'<b>'+n+'</b> matching '+(n===1?'county':'counties')+' in '+Object.keys(states).join(', '):'No match yet. Outside our current pins we can usually onboard a partner vendor within the week, so <a href="#contact" class="gold">send us the address</a>.';
+  }
+  q.addEventListener('input',search);
+
+  // bid form: emails submissions via FormSubmit (change the address below when the real inbox is ready)
+  var TO='info@imperialfieldservices.com';
+  var form=document.getElementById('bidForm'), msg=document.getElementById('formMsg'), done=document.getElementById('formDone');
+  var submitBtn=form.querySelector('button[type=submit]');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var name=form.name.value.trim(), email=form.email.value.trim(), addr=form.address.value.trim();
+    if(!name||!addr||!/^\S+@\S+\.\S+$/.test(email)){msg.textContent='Please add your name, a valid email and the property address.';msg.style.color='var(--gold-deep)';return}
+    if(form._honey.value){return}
+    msg.textContent='Sending…';msg.style.color='';submitBtn.disabled=true;done.hidden=true;
+    var payload={
+      _subject:'Bid request: '+addr,
+      _template:'table',
+      _replyto:email,
+      _captcha:'false',
+      'Name':name,'Company':form.company.value.trim(),'Email':email,'Phone':form.phone.value.trim(),
+      'Property address':addr,'Client type':form.type.value,'Needed by':form.when.value,
+      'Services needed':form.services.value.trim(),'Notes':form.notes.value.trim()
+    };
+    fetch('https://formsubmit.co/ajax/'+TO,{
+      method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(payload)
+    }).then(function(r){return r.json()}).then(function(d){
+      if(!d||String(d.success)!=='true') throw new Error('send failed');
+      done.textContent='Thanks, '+name+'. Your bid request for '+addr+' was sent. We will reply within one business day.';
+      done.hidden=false;form.reset();msg.textContent='Name, email and address are required.';
+    }).catch(function(){
+      msg.textContent='We could not send the form. Please email '+TO+'.';msg.style.color='var(--gold-deep)';
+    }).finally(function(){submitBtn.disabled=false});
+  });
+})();
+</script>
+</body>
+</html>

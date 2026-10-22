@@ -1,0 +1,6124 @@
+{
+"pins": [
+{
+"state": "NY",
+"county": "Albany",
+"fips": "36001",
+"lon": -73.973,
+"lat": 42.6002,
+"x": 1044.4,
+"y": 207.6
+},
+{
+"state": "NY",
+"county": "Broome",
+"fips": "36007",
+"lon": -75.8198,
+"lat": 42.1598,
+"x": 1011.3,
+"y": 227.4
+},
+{
+"state": "NY",
+"county": "Cattaraugus",
+"fips": "36009",
+"lon": -78.6788,
+"lat": 42.248,
+"x": 955.0,
+"y": 236.2
+},
+{
+"state": "NY",
+"county": "Cayuga",
+"fips": "36011",
+"lon": -76.554,
+"lat": 42.9185,
+"x": 992.7,
+"y": 210.2
+},
+{
+"state": "NY",
+"county": "Chautauqua",
+"fips": "36013",
+"lon": -79.3665,
+"lat": 42.2285,
+"x": 941.6,
+"y": 239.1
+},
+{
+"state": "NY",
+"county": "Chemung",
+"fips": "36015",
+"lon": -76.7587,
+"lat": 42.1403,
+"x": 993.1,
+"y": 231.8
+},
+{
+"state": "NY",
+"county": "Chenango",
+"fips": "36017",
+"lon": -75.6121,
+"lat": 42.4928,
+"x": 1013.4,
+"y": 217.6
+},
+{
+"state": "NY",
+"county": "Cortland",
+"fips": "36023",
+"lon": -76.07,
+"lat": 42.595,
+"x": 1003.9,
+"y": 216.8
+},
+{
+"state": "NY",
+"county": "Dutchess",
+"fips": "36027",
+"lon": -73.7424,
+"lat": 41.7641,
+"x": 1054.1,
+"y": 228.7
+},
+{
+"state": "NY",
+"county": "Genesee",
+"fips": "36037",
+"lon": -78.1939,
+"lat": 43.001,
+"x": 960.6,
+"y": 214.3
+},
+{
+"state": "NY",
+"county": "Herkimer",
+"fips": "36043",
+"lon": -74.9627,
+"lat": 43.4204,
+"x": 1020.4,
+"y": 190.2
+},
+{
+"state": "NY",
+"county": "Jefferson",
+"fips": "36045",
+"lon": -75.9284,
+"lat": 44.0492,
+"x": 998.4,
+"y": 177.6
+},
+{
+"state": "NY",
+"county": "Kings",
+"fips": "36047",
+"lon": -73.94,
+"lat": 40.6407,
+"x": 1057.3,
+"y": 259.5
+},
+{
+"state": "NY",
+"county": "Madison",
+"fips": "36053",
+"lon": -75.6722,
+"lat": 42.9132,
+"x": 1009.8,
+"y": 206.7
+},
+{
+"state": "NY",
+"county": "Monroe",
+"fips": "36055",
+"lon": -77.6957,
+"lat": 43.1462,
+"x": 969.5,
+"y": 208.5
+},
+{
+"state": "NY",
+"county": "Nassau",
+"fips": "36059",
+"lon": -73.5861,
+"lat": 40.7384,
+"x": 1063.7,
+"y": 255.2
+},
+{
+"state": "NY",
+"county": "Oneida",
+"fips": "36065",
+"lon": -75.436,
+"lat": 43.2413,
+"x": 1012.4,
+"y": 197.0
+},
+{
+"state": "NY",
+"county": "Orange",
+"fips": "36071",
+"lon": -74.3073,
+"lat": 41.4015,
+"x": 1045.3,
+"y": 240.9
+},
+{
+"state": "NY",
+"county": "Orleans",
+"fips": "36073",
+"lon": -78.2312,
+"lat": 43.2518,
+"x": 958.6,
+"y": 207.7
+},
+{
+"state": "NY",
+"county": "Queens",
+"fips": "36081",
+"lon": -73.8218,
+"lat": 40.7024,
+"x": 1059.3,
+"y": 257.3
+},
+{
+"state": "NY",
+"county": "Rensselaer",
+"fips": "36083",
+"lon": -73.5076,
+"lat": 42.7106,
+"x": 1052.6,
+"y": 202.5
+},
+{
+"state": "NY",
+"county": "St. Lawrence",
+"fips": "36089",
+"lon": -75.0688,
+"lat": 44.4961,
+"x": 1012.0,
+"y": 162.2
+},
+{
+"state": "NY",
+"county": "Saratoga",
+"fips": "36091",
+"lon": -73.8627,
+"lat": 43.1069,
+"x": 1043.3,
+"y": 193.7
+},
+{
+"state": "NY",
+"county": "Schenectady",
+"fips": "36093",
+"lon": -74.0591,
+"lat": 42.8168,
+"x": 1041.4,
+"y": 202.3
+},
+{
+"state": "NY",
+"county": "Schuyler",
+"fips": "36097",
+"lon": -76.876,
+"lat": 42.3927,
+"x": 989.4,
+"y": 225.5
+},
+{
+"state": "NY",
+"county": "Seneca",
+"fips": "36099",
+"lon": -76.8228,
+"lat": 42.7808,
+"x": 988.3,
+"y": 214.9
+},
+{
+"state": "NY",
+"county": "Steuben",
+"fips": "36101",
+"lon": -77.3833,
+"lat": 42.2678,
+"x": 980.2,
+"y": 230.8
+},
+{
+"state": "NY",
+"county": "Suffolk",
+"fips": "36103",
+"lon": -72.8543,
+"lat": 40.866,
+"x": 1077.3,
+"y": 248.3
+},
+{
+"state": "NY",
+"county": "Sullivan",
+"fips": "36105",
+"lon": -74.7681,
+"lat": 41.7168,
+"x": 1034.4,
+"y": 234.6
+},
+{
+"state": "NY",
+"county": "Tioga",
+"fips": "36107",
+"lon": -76.3058,
+"lat": 42.1706,
+"x": 1001.7,
+"y": 229.1
+},
+{
+"state": "NY",
+"county": "Tompkins",
+"fips": "36109",
+"lon": -76.4731,
+"lat": 42.4523,
+"x": 996.9,
+"y": 222.3
+},
+{
+"state": "NY",
+"county": "Ulster",
+"fips": "36111",
+"lon": -74.2581,
+"lat": 41.8882,
+"x": 1043.3,
+"y": 227.8
+},
+{
+"state": "NY",
+"county": "Yates",
+"fips": "36123",
+"lon": -77.1035,
+"lat": 42.6333,
+"x": 983.7,
+"y": 220.0
+},
+{
+"state": "NY",
+"county": "Niagara",
+"fips": "36063",
+"lon": -78.745,
+"lat": 43.1998,
+"x": 949.0,
+"y": 210.9
+},
+{
+"state": "NJ",
+"county": "Atlantic",
+"fips": "34001",
+"lon": -74.6621,
+"lat": 39.4779,
+"x": 1050.1,
+"y": 293.7
+},
+{
+"state": "NJ",
+"county": "Bergen",
+"fips": "34003",
+"lon": -74.0746,
+"lat": 40.9597,
+"x": 1052.7,
+"y": 251.6
+},
+{
+"state": "NJ",
+"county": "Burlington",
+"fips": "34005",
+"lon": -74.667,
+"lat": 39.8771,
+"x": 1047.5,
+"y": 283.1
+},
+{
+"state": "NJ",
+"county": "Camden",
+"fips": "34007",
+"lon": -74.9591,
+"lat": 39.8043,
+"x": 1042.1,
+"y": 286.4
+},
+{
+"state": "NJ",
+"county": "Cape May",
+"fips": "34009",
+"lon": -74.8002,
+"lat": 39.1494,
+"x": 1049.3,
+"y": 303.1
+},
+{
+"state": "NJ",
+"county": "Cumberland",
+"fips": "34011",
+"lon": -75.1093,
+"lat": 39.372,
+"x": 1041.7,
+"y": 298.6
+},
+{
+"state": "NJ",
+"county": "Essex",
+"fips": "34013",
+"lon": -74.2455,
+"lat": 40.7855,
+"x": 1050.4,
+"y": 257.0
+},
+{
+"state": "NJ",
+"county": "Gloucester",
+"fips": "34015",
+"lon": -75.1414,
+"lat": 39.7172,
+"x": 1039.0,
+"y": 289.5
+},
+{
+"state": "NJ",
+"county": "Hudson",
+"fips": "34017",
+"lon": -74.0748,
+"lat": 40.7373,
+"x": 1054.0,
+"y": 257.5
+},
+{
+"state": "NJ",
+"county": "Mercer",
+"fips": "34021",
+"lon": -74.7031,
+"lat": 40.2837,
+"x": 1044.3,
+"y": 272.5
+},
+{
+"state": "NJ",
+"county": "Middlesex",
+"fips": "34023",
+"lon": -74.4098,
+"lat": 40.4408,
+"x": 1049.2,
+"y": 266.9
+},
+{
+"state": "NJ",
+"county": "Monmouth",
+"fips": "34025",
+"lon": -74.2229,
+"lat": 40.2599,
+"x": 1054.1,
+"y": 270.9
+},
+{
+"state": "NJ",
+"county": "Ocean",
+"fips": "34029",
+"lon": -74.2814,
+"lat": 39.8854,
+"x": 1055.2,
+"y": 281.1
+},
+{
+"state": "NJ",
+"county": "Salem",
+"fips": "34033",
+"lon": -75.3486,
+"lat": 39.5872,
+"x": 1035.6,
+"y": 293.9
+},
+{
+"state": "NJ",
+"county": "Union",
+"fips": "34039",
+"lon": -74.3092,
+"lat": 40.6607,
+"x": 1049.9,
+"y": 260.6
+},
+{
+"state": "NJ",
+"county": "Somerset",
+"fips": "34035",
+"lon": -74.6161,
+"lat": 40.5643,
+"x": 1044.4,
+"y": 264.6
+},
+{
+"state": "NJ",
+"county": "Sussex",
+"fips": "34037",
+"lon": -74.6904,
+"lat": 41.1389,
+"x": 1039.4,
+"y": 249.7
+},
+{
+"state": "NJ",
+"county": "Morris",
+"fips": "34027",
+"lon": -74.5453,
+"lat": 40.8623,
+"x": 1044.0,
+"y": 256.4
+},
+{
+"state": "NJ",
+"county": "Passaic",
+"fips": "34031",
+"lon": -74.3014,
+"lat": 41.0357,
+"x": 1047.7,
+"y": 250.6
+},
+{
+"state": "FL",
+"county": "Alachua",
+"fips": "12001",
+"lon": -82.3583,
+"lat": 29.6753,
+"x": 931.8,
+"y": 587.3
+},
+{
+"state": "FL",
+"county": "Baker",
+"fips": "12003",
+"lon": -82.2847,
+"lat": 30.3312,
+"x": 930.9,
+"y": 569.4
+},
+{
+"state": "FL",
+"county": "Bay",
+"fips": "12005",
+"lon": -85.6205,
+"lat": 30.2648,
+"x": 854.0,
+"y": 581.1
+},
+{
+"state": "FL",
+"county": "Bradford",
+"fips": "12007",
+"lon": -82.1687,
+"lat": 29.95,
+"x": 935.1,
+"y": 579.3
+},
+{
+"state": "FL",
+"county": "Brevard",
+"fips": "12009",
+"lon": -80.7319,
+"lat": 28.2938,
+"x": 975.5,
+"y": 618.3
+},
+{
+"state": "FL",
+"county": "Broward",
+"fips": "12011",
+"lon": -80.4872,
+"lat": 26.1519,
+"x": 990.6,
+"y": 674.3
+},
+{
+"state": "FL",
+"county": "Charlotte",
+"fips": "12015",
+"lon": -81.9111,
+"lat": 26.9062,
+"x": 953.2,
+"y": 659.7
+},
+{
+"state": "FL",
+"county": "Citrus",
+"fips": "12017",
+"lon": -82.4785,
+"lat": 28.8487,
+"x": 932.1,
+"y": 609.8
+},
+{
+"state": "FL",
+"county": "Clay",
+"fips": "12019",
+"lon": -81.8577,
+"lat": 29.9839,
+"x": 942.2,
+"y": 577.3
+},
+{
+"state": "FL",
+"county": "Collier",
+"fips": "12021",
+"lon": -81.3476,
+"lat": 26.1107,
+"x": 970.0,
+"y": 678.7
+},
+{
+"state": "FL",
+"county": "Columbia",
+"fips": "12023",
+"lon": -82.6219,
+"lat": 30.2248,
+"x": 923.5,
+"y": 573.4
+},
+{
+"state": "FL",
+"county": "DeSoto",
+"fips": "12027",
+"lon": -81.8099,
+"lat": 27.1868,
+"x": 954.5,
+"y": 651.8
+},
+{
+"state": "FL",
+"county": "Duval",
+"fips": "12031",
+"lon": -81.6701,
+"lat": 30.3328,
+"x": 945.1,
+"y": 567.3
+},
+{
+"state": "FL",
+"county": "Flagler",
+"fips": "12035",
+"lon": -81.3126,
+"lat": 29.4614,
+"x": 957.0,
+"y": 589.3
+},
+{
+"state": "FL",
+"county": "Gilchrist",
+"fips": "12041",
+"lon": -82.7991,
+"lat": 29.7266,
+"x": 921.3,
+"y": 587.4
+},
+{
+"state": "FL",
+"county": "Glades",
+"fips": "12043",
+"lon": -81.1898,
+"lat": 26.9562,
+"x": 970.3,
+"y": 655.7
+},
+{
+"state": "FL",
+"county": "Hardee",
+"fips": "12049",
+"lon": -81.8094,
+"lat": 27.4931,
+"x": 953.3,
+"y": 643.7
+},
+{
+"state": "FL",
+"county": "Hendry",
+"fips": "12051",
+"lon": -81.1653,
+"lat": 26.5535,
+"x": 972.6,
+"y": 666.3
+},
+{
+"state": "FL",
+"county": "Hernando",
+"fips": "12053",
+"lon": -82.4258,
+"lat": 28.5538,
+"x": 934.5,
+"y": 617.5
+},
+{
+"state": "FL",
+"county": "Highlands",
+"fips": "12055",
+"lon": -81.3412,
+"lat": 27.3428,
+"x": 965.1,
+"y": 646.0
+},
+{
+"state": "FL",
+"county": "Hillsborough",
+"fips": "12057",
+"lon": -82.3084,
+"lat": 27.9293,
+"x": 939.7,
+"y": 633.8
+},
+{
+"state": "FL",
+"county": "Holmes",
+"fips": "12059",
+"lon": -85.8155,
+"lat": 30.8674,
+"x": 847.7,
+"y": 565.3
+},
+{
+"state": "FL",
+"county": "Indian River",
+"fips": "12061",
+"lon": -80.6059,
+"lat": 27.6945,
+"x": 981.1,
+"y": 633.8
+},
+{
+"state": "FL",
+"county": "Jackson",
+"fips": "12063",
+"lon": -85.2172,
+"lat": 30.7955,
+"x": 861.7,
+"y": 565.7
+},
+{
+"state": "FL",
+"county": "Lake",
+"fips": "12069",
+"lon": -81.711,
+"lat": 28.7614,
+"x": 950.5,
+"y": 609.5
+},
+{
+"state": "FL",
+"county": "Lee",
+"fips": "12071",
+"lon": -81.8203,
+"lat": 26.579,
+"x": 956.7,
+"y": 668.0
+},
+{
+"state": "FL",
+"county": "Levy",
+"fips": "12075",
+"lon": -82.7421,
+"lat": 29.3195,
+"x": 924.2,
+"y": 598.1
+},
+{
+"state": "FL",
+"county": "Manatee",
+"fips": "12081",
+"lon": -82.3164,
+"lat": 27.4722,
+"x": 941.3,
+"y": 646.0
+},
+{
+"state": "FL",
+"county": "Marion",
+"fips": "12083",
+"lon": -82.0553,
+"lat": 29.2105,
+"x": 940.6,
+"y": 598.7
+},
+{
+"state": "FL",
+"county": "Martin",
+"fips": "12085",
+"lon": -80.4318,
+"lat": 27.0774,
+"x": 987.9,
+"y": 649.5
+},
+{
+"state": "FL",
+"county": "Miami-Dade",
+"fips": "12086",
+"lon": -80.5618,
+"lat": 25.6165,
+"x": 991.2,
+"y": 688.7
+},
+{
+"state": "FL",
+"county": "Nassau",
+"fips": "12089",
+"lon": -81.8014,
+"lat": 30.6109,
+"x": 940.9,
+"y": 560.3
+},
+{
+"state": "FL",
+"county": "Okaloosa",
+"fips": "12091",
+"lon": -86.5916,
+"lat": 30.691,
+"x": 830.3,
+"y": 571.9
+},
+{
+"state": "FL",
+"county": "Okeechobee",
+"fips": "12093",
+"lon": -80.8895,
+"lat": 27.3866,
+"x": 975.7,
+"y": 643.1
+},
+{
+"state": "FL",
+"county": "Orange",
+"fips": "12095",
+"lon": -81.3232,
+"lat": 28.5137,
+"x": 960.6,
+"y": 614.7
+},
+{
+"state": "FL",
+"county": "Osceola",
+"fips": "12097",
+"lon": -81.1497,
+"lat": 28.063,
+"x": 966.6,
+"y": 626.1
+},
+{
+"state": "FL",
+"county": "Polk",
+"fips": "12105",
+"lon": -81.6974,
+"lat": 27.9488,
+"x": 954.1,
+"y": 631.1
+},
+{
+"state": "FL",
+"county": "Putnam",
+"fips": "12107",
+"lon": -81.7434,
+"lat": 29.6094,
+"x": 946.3,
+"y": 586.9
+},
+{
+"state": "FL",
+"county": "St. Johns",
+"fips": "12109",
+"lon": -81.441,
+"lat": 29.9015,
+"x": 952.1,
+"y": 578.0
+},
+{
+"state": "FL",
+"county": "St. Lucie",
+"fips": "12111",
+"lon": -80.471,
+"lat": 27.3777,
+"x": 985.7,
+"y": 641.7
+},
+{
+"state": "FL",
+"county": "Santa Rosa",
+"fips": "12113",
+"lon": -87.0214,
+"lat": 30.6993,
+"x": 820.3,
+"y": 572.7
+},
+{
+"state": "FL",
+"county": "Sarasota",
+"fips": "12115",
+"lon": -82.3311,
+"lat": 27.1844,
+"x": 942.0,
+"y": 653.7
+},
+{
+"state": "FL",
+"county": "Seminole",
+"fips": "12117",
+"lon": -81.2371,
+"lat": 28.7164,
+"x": 961.8,
+"y": 609.0
+},
+{
+"state": "FL",
+"county": "Sumter",
+"fips": "12119",
+"lon": -82.0805,
+"lat": 28.7044,
+"x": 942.0,
+"y": 612.3
+},
+{
+"state": "FL",
+"county": "Union",
+"fips": "12125",
+"lon": -82.3721,
+"lat": 30.0431,
+"x": 930.0,
+"y": 577.5
+},
+{
+"state": "FL",
+"county": "Volusia",
+"fips": "12127",
+"lon": -81.1825,
+"lat": 29.0582,
+"x": 961.7,
+"y": 599.6
+},
+{
+"state": "FL",
+"county": "Walton",
+"fips": "12131",
+"lon": -86.1694,
+"lat": 30.6431,
+"x": 840.2,
+"y": 572.2
+},
+{
+"state": "FL",
+"county": "Washington",
+"fips": "12133",
+"lon": -85.663,
+"lat": 30.6114,
+"x": 852.0,
+"y": 571.8
+},
+{
+"state": "PA",
+"county": "Adams",
+"fips": "42001",
+"lon": -77.2181,
+"lat": 39.8708,
+"x": 996.2,
+"y": 294.3
+},
+{
+"state": "PA",
+"county": "Allegheny",
+"fips": "42003",
+"lon": -79.982,
+"lat": 40.4697,
+"x": 937.6,
+"y": 288.5
+},
+{
+"state": "PA",
+"county": "Berks",
+"fips": "42011",
+"lon": -75.9267,
+"lat": 40.4159,
+"x": 1019.1,
+"y": 274.3
+},
+{
+"state": "PA",
+"county": "Bradford",
+"fips": "42015",
+"lon": -76.5147,
+"lat": 41.7892,
+"x": 999.8,
+"y": 240.1
+},
+{
+"state": "PA",
+"county": "Bucks",
+"fips": "42017",
+"lon": -75.1076,
+"lat": 40.3358,
+"x": 1036.0,
+"y": 272.9
+},
+{
+"state": "PA",
+"county": "Butler",
+"fips": "42019",
+"lon": -79.9132,
+"lat": 40.9116,
+"x": 936.9,
+"y": 276.4
+},
+{
+"state": "PA",
+"county": "Carbon",
+"fips": "42025",
+"lon": -75.7099,
+"lat": 40.9183,
+"x": 1020.6,
+"y": 260.0
+},
+{
+"state": "PA",
+"county": "Chester",
+"fips": "42029",
+"lon": -75.748,
+"lat": 39.9731,
+"x": 1025.3,
+"y": 285.4
+},
+{
+"state": "PA",
+"county": "Clarion",
+"fips": "42031",
+"lon": -79.421,
+"lat": 41.193,
+"x": 945.4,
+"y": 267.1
+},
+{
+"state": "PA",
+"county": "Clinton",
+"fips": "42035",
+"lon": -77.6391,
+"lat": 41.234,
+"x": 980.6,
+"y": 259.5
+},
+{
+"state": "PA",
+"county": "Columbia",
+"fips": "42037",
+"lon": -76.4051,
+"lat": 41.0488,
+"x": 1006.1,
+"y": 259.5
+},
+{
+"state": "PA",
+"county": "Crawford",
+"fips": "42039",
+"lon": -80.1072,
+"lat": 41.6843,
+"x": 929.5,
+"y": 256.3
+},
+{
+"state": "PA",
+"county": "Cumberland",
+"fips": "42041",
+"lon": -77.2662,
+"lat": 40.164,
+"x": 993.7,
+"y": 286.6
+},
+{
+"state": "PA",
+"county": "Dauphin",
+"fips": "42043",
+"lon": -76.778,
+"lat": 40.4161,
+"x": 1002.1,
+"y": 277.9
+},
+{
+"state": "PA",
+"county": "Delaware",
+"fips": "42045",
+"lon": -75.401,
+"lat": 39.9162,
+"x": 1032.6,
+"y": 285.4
+},
+{
+"state": "PA",
+"county": "Erie",
+"fips": "42049",
+"lon": -80.0336,
+"lat": 41.9925,
+"x": 929.6,
+"y": 247.7
+},
+{
+"state": "PA",
+"county": "Franklin",
+"fips": "42055",
+"lon": -77.7216,
+"lat": 39.9274,
+"x": 985.8,
+"y": 294.8
+},
+{
+"state": "PA",
+"county": "Indiana",
+"fips": "42063",
+"lon": -79.0862,
+"lat": 40.6529,
+"x": 954.7,
+"y": 280.5
+},
+{
+"state": "PA",
+"county": "Lackawanna",
+"fips": "42069",
+"lon": -75.6095,
+"lat": 41.4375,
+"x": 1019.5,
+"y": 245.7
+},
+{
+"state": "PA",
+"county": "Lancaster",
+"fips": "42071",
+"lon": -76.2477,
+"lat": 40.0419,
+"x": 1014.8,
+"y": 285.7
+},
+{
+"state": "PA",
+"county": "Lehigh",
+"fips": "42077",
+"lon": -75.5925,
+"lat": 40.613,
+"x": 1024.7,
+"y": 267.6
+},
+{
+"state": "PA",
+"county": "Luzerne",
+"fips": "42079",
+"lon": -75.9889,
+"lat": 41.1781,
+"x": 1013.6,
+"y": 254.3
+},
+{
+"state": "PA",
+"county": "McKean",
+"fips": "42083",
+"lon": -78.5687,
+"lat": 41.8077,
+"x": 959.3,
+"y": 247.6
+},
+{
+"state": "PA",
+"county": "Mercer",
+"fips": "42085",
+"lon": -80.2583,
+"lat": 41.302,
+"x": 928.3,
+"y": 267.1
+},
+{
+"state": "PA",
+"county": "Monroe",
+"fips": "42089",
+"lon": -75.3395,
+"lat": 41.0585,
+"x": 1027.1,
+"y": 254.7
+},
+{
+"state": "PA",
+"county": "Montgomery",
+"fips": "42091",
+"lon": -75.3678,
+"lat": 40.2107,
+"x": 1031.5,
+"y": 277.4
+},
+{
+"state": "PA",
+"county": "Northampton",
+"fips": "42095",
+"lon": -75.3058,
+"lat": 40.7551,
+"x": 1029.5,
+"y": 262.6
+},
+{
+"state": "PA",
+"county": "Philadelphia",
+"fips": "42101",
+"lon": -75.1356,
+"lat": 40.007,
+"x": 1037.4,
+"y": 281.8
+},
+{
+"state": "PA",
+"county": "Potter",
+"fips": "42105",
+"lon": -77.8951,
+"lat": 41.7446,
+"x": 972.9,
+"y": 246.8
+},
+{
+"state": "PA",
+"county": "Schuylkill",
+"fips": "42107",
+"lon": -76.2173,
+"lat": 40.7058,
+"x": 1011.7,
+"y": 267.8
+},
+{
+"state": "PA",
+"county": "Sullivan",
+"fips": "42113",
+"lon": -76.5126,
+"lat": 41.4464,
+"x": 1001.7,
+"y": 249.3
+},
+{
+"state": "PA",
+"county": "Susquehanna",
+"fips": "42115",
+"lon": -75.8009,
+"lat": 41.821,
+"x": 1013.6,
+"y": 236.3
+},
+{
+"state": "PA",
+"county": "Tioga",
+"fips": "42117",
+"lon": -77.2536,
+"lat": 41.7724,
+"x": 985.4,
+"y": 243.5
+},
+{
+"state": "PA",
+"county": "Venango",
+"fips": "42121",
+"lon": -79.7577,
+"lat": 41.4011,
+"x": 937.8,
+"y": 262.7
+},
+{
+"state": "PA",
+"county": "Warren",
+"fips": "42123",
+"lon": -79.2746,
+"lat": 41.814,
+"x": 945.4,
+"y": 249.9
+},
+{
+"state": "PA",
+"county": "Wayne",
+"fips": "42127",
+"lon": -75.3035,
+"lat": 41.6479,
+"x": 1024.3,
+"y": 238.8
+},
+{
+"state": "MD",
+"county": "Baltimore",
+"fips": "24005",
+"lon": -76.6357,
+"lat": 39.4594,
+"x": 1010.3,
+"y": 302.9
+},
+{
+"state": "MD",
+"county": "Calvert",
+"fips": "24009",
+"lon": -76.5687,
+"lat": 38.5413,
+"x": 1016.7,
+"y": 327.2
+},
+{
+"state": "MD",
+"county": "Charles",
+"fips": "24017",
+"lon": -76.9932,
+"lat": 38.5068,
+"x": 1008.2,
+"y": 329.9
+},
+{
+"state": "MD",
+"county": "St. Mary's",
+"fips": "24037",
+"lon": -76.6044,
+"lat": 38.3012,
+"x": 1017.3,
+"y": 333.8
+},
+{
+"state": "MD",
+"county": "Howard",
+"fips": "24027",
+"lon": -76.9319,
+"lat": 39.2523,
+"x": 1005.4,
+"y": 309.7
+},
+{
+"state": "MD",
+"county": "Anne Arundel",
+"fips": "24003",
+"lon": -76.6039,
+"lat": 39.0071,
+"x": 1013.4,
+"y": 314.9
+},
+{
+"state": "MD",
+"county": "Harford",
+"fips": "24025",
+"lon": -76.3163,
+"lat": 39.5618,
+"x": 1016.2,
+"y": 298.8
+},
+{
+"state": "MD",
+"county": "Montgomery",
+"fips": "24031",
+"lon": -77.2023,
+"lat": 39.1368,
+"x": 1000.5,
+"y": 313.9
+},
+{
+"state": "MD",
+"county": "Somerset",
+"fips": "24039",
+"lon": -75.74,
+"lat": 38.1198,
+"x": 1036.1,
+"y": 334.8
+},
+{
+"state": "MD",
+"county": "Frederick",
+"fips": "24021",
+"lon": -77.3971,
+"lat": 39.4728,
+"x": 994.7,
+"y": 305.7
+},
+{
+"state": "MD",
+"county": "Carroll",
+"fips": "24013",
+"lon": -77.0223,
+"lat": 39.5636,
+"x": 1001.9,
+"y": 301.7
+},
+{
+"state": "MD",
+"county": "Washington",
+"fips": "24043",
+"lon": -77.8157,
+"lat": 39.6048,
+"x": 985.6,
+"y": 303.8
+},
+{
+"state": "MD",
+"county": "Caroline",
+"fips": "24011",
+"lon": -75.8308,
+"lat": 38.8698,
+"x": 1030.0,
+"y": 315.2
+},
+{
+"state": "MD",
+"county": "Queen Anne's",
+"fips": "24035",
+"lon": -76.0234,
+"lat": 39.0654,
+"x": 1024.9,
+"y": 310.8
+},
+{
+"state": "MD",
+"county": "Wicomico",
+"fips": "24045",
+"lon": -75.6228,
+"lat": 38.3737,
+"x": 1037.1,
+"y": 327.5
+},
+{
+"state": "MD",
+"county": "Dorchester",
+"fips": "24019",
+"lon": -76.0229,
+"lat": 38.4776,
+"x": 1028.3,
+"y": 326.5
+},
+{
+"state": "MD",
+"county": "Prince George's",
+"fips": "24033",
+"lon": -76.8463,
+"lat": 38.8298,
+"x": 1009.4,
+"y": 320.6
+},
+{
+"state": "MD",
+"county": "Worcester",
+"fips": "24047",
+"lon": -75.3349,
+"lat": 38.2126,
+"x": 1043.9,
+"y": 330.5
+},
+{
+"state": "MD",
+"county": "Talbot",
+"fips": "24041",
+"lon": -76.1012,
+"lat": 38.7705,
+"x": 1025.0,
+"y": 319.1
+},
+{
+"state": "NC",
+"county": "Alexander",
+"fips": "37003",
+"lon": -81.1764,
+"lat": 35.9229,
+"x": 932.8,
+"y": 415.2
+},
+{
+"state": "NC",
+"county": "Beaufort",
+"fips": "37013",
+"lon": -76.8589,
+"lat": 35.494,
+"x": 1027.4,
+"y": 410.0
+},
+{
+"state": "NC",
+"county": "Bladen",
+"fips": "37017",
+"lon": -78.5631,
+"lat": 34.6155,
+"x": 995.3,
+"y": 440.7
+},
+{
+"state": "NC",
+"county": "Brunswick",
+"fips": "37019",
+"lon": -78.238,
+"lat": 34.0704,
+"x": 1005.1,
+"y": 454.0
+},
+{
+"state": "NC",
+"county": "Burke",
+"fips": "37023",
+"lon": -81.7044,
+"lat": 35.7501,
+"x": 922.2,
+"y": 421.6
+},
+{
+"state": "NC",
+"county": "Cabarrus",
+"fips": "37025",
+"lon": -80.5496,
+"lat": 35.3868,
+"x": 948.6,
+"y": 427.5
+},
+{
+"state": "NC",
+"county": "Caldwell",
+"fips": "37027",
+"lon": -81.5447,
+"lat": 35.9535,
+"x": 924.8,
+"y": 415.6
+},
+{
+"state": "NC",
+"county": "Carteret",
+"fips": "37031",
+"lon": -76.6547,
+"lat": 34.8267,
+"x": 1035.5,
+"y": 426.9
+},
+{
+"state": "NC",
+"county": "Caswell",
+"fips": "37033",
+"lon": -79.3326,
+"lat": 36.3931,
+"x": 970.1,
+"y": 395.9
+},
+{
+"state": "NC",
+"county": "Catawba",
+"fips": "37035",
+"lon": -81.2142,
+"lat": 35.6621,
+"x": 933.1,
+"y": 422.3
+},
+{
+"state": "NC",
+"county": "Columbus",
+"fips": "37047",
+"lon": -78.6557,
+"lat": 34.2658,
+"x": 995.0,
+"y": 450.4
+},
+{
+"state": "NC",
+"county": "Craven",
+"fips": "37049",
+"lon": -77.0922,
+"lat": 35.1246,
+"x": 1024.4,
+"y": 420.9
+},
+{
+"state": "NC",
+"county": "Cumberland",
+"fips": "37051",
+"lon": -78.8276,
+"lat": 35.0495,
+"x": 987.4,
+"y": 430.1
+},
+{
+"state": "NC",
+"county": "Davidson",
+"fips": "37057",
+"lon": -80.2124,
+"lat": 35.794,
+"x": 954.1,
+"y": 415.3
+},
+{
+"state": "NC",
+"county": "Duplin",
+"fips": "37061",
+"lon": -77.9331,
+"lat": 34.9357,
+"x": 1007.3,
+"y": 429.5
+},
+{
+"state": "NC",
+"county": "Durham",
+"fips": "37063",
+"lon": -78.8759,
+"lat": 36.0365,
+"x": 981.5,
+"y": 403.8
+},
+{
+"state": "NC",
+"county": "Forsyth",
+"fips": "37067",
+"lon": -80.2556,
+"lat": 36.132,
+"x": 951.6,
+"y": 406.3
+},
+{
+"state": "NC",
+"county": "Franklin",
+"fips": "37069",
+"lon": -78.2844,
+"lat": 36.0825,
+"x": 993.9,
+"y": 400.2
+},
+{
+"state": "NC",
+"county": "Granville",
+"fips": "37077",
+"lon": -78.652,
+"lat": 36.3042,
+"x": 985.0,
+"y": 395.7
+},
+{
+"state": "NC",
+"county": "Guilford",
+"fips": "37081",
+"lon": -79.7887,
+"lat": 36.0796,
+"x": 961.8,
+"y": 406.1
+},
+{
+"state": "NC",
+"county": "Iredell",
+"fips": "37097",
+"lon": -80.8735,
+"lat": 35.8086,
+"x": 939.8,
+"y": 417.2
+},
+{
+"state": "NC",
+"county": "Johnston",
+"fips": "37101",
+"lon": -78.365,
+"lat": 35.5183,
+"x": 995.0,
+"y": 415.7
+},
+{
+"state": "NC",
+"county": "Lincoln",
+"fips": "37109",
+"lon": -81.2228,
+"lat": 35.4854,
+"x": 933.7,
+"y": 427.1
+},
+{
+"state": "NC",
+"county": "Mecklenburg",
+"fips": "37119",
+"lon": -80.8322,
+"lat": 35.2474,
+"x": 943.1,
+"y": 432.2
+},
+{
+"state": "NC",
+"county": "New Hanover",
+"fips": "37129",
+"lon": -77.8852,
+"lat": 34.2339,
+"x": 1011.9,
+"y": 448.1
+},
+{
+"state": "NC",
+"county": "Onslow",
+"fips": "37133",
+"lon": -77.4265,
+"lat": 34.7292,
+"x": 1019.3,
+"y": 432.9
+},
+{
+"state": "NC",
+"county": "Orange",
+"fips": "37135",
+"lon": -79.1204,
+"lat": 36.0611,
+"x": 976.2,
+"y": 404.1
+},
+{
+"state": "NC",
+"county": "Pender",
+"fips": "37141",
+"lon": -77.9056,
+"lat": 34.5243,
+"x": 1010.0,
+"y": 440.4
+},
+{
+"state": "NC",
+"county": "Person",
+"fips": "37145",
+"lon": -78.9713,
+"lat": 36.39,
+"x": 977.7,
+"y": 394.6
+},
+{
+"state": "NC",
+"county": "Pitt",
+"fips": "37147",
+"lon": -77.3756,
+"lat": 35.5931,
+"x": 1015.8,
+"y": 409.6
+},
+{
+"state": "NC",
+"county": "Robeson",
+"fips": "37155",
+"lon": -79.1045,
+"lat": 34.64,
+"x": 983.4,
+"y": 442.2
+},
+{
+"state": "NC",
+"county": "Rowan",
+"fips": "37159",
+"lon": -80.5251,
+"lat": 35.6394,
+"x": 948.0,
+"y": 420.6
+},
+{
+"state": "NC",
+"county": "Vance",
+"fips": "37181",
+"lon": -78.4079,
+"lat": 36.3658,
+"x": 989.8,
+"y": 393.1
+},
+{
+"state": "NC",
+"county": "Gaston",
+"fips": "37071",
+"lon": -81.1809,
+"lat": 35.2941,
+"x": 935.4,
+"y": 432.2
+},
+{
+"state": "SC",
+"county": "Abbeville",
+"fips": "45001",
+"lon": -82.4607,
+"lat": 34.2224,
+"x": 911.8,
+"y": 465.3
+},
+{
+"state": "SC",
+"county": "Anderson",
+"fips": "45007",
+"lon": -82.638,
+"lat": 34.5188,
+"x": 906.8,
+"y": 457.8
+},
+{
+"state": "SC",
+"county": "Berkeley",
+"fips": "45015",
+"lon": -79.9536,
+"lat": 33.1979,
+"x": 971.5,
+"y": 484.2
+},
+{
+"state": "SC",
+"county": "Charleston",
+"fips": "45019",
+"lon": -79.9519,
+"lat": 32.834,
+"x": 973.2,
+"y": 493.9
+},
+{
+"state": "SC",
+"county": "Cherokee",
+"fips": "45021",
+"lon": -81.6208,
+"lat": 35.0486,
+"x": 926.9,
+"y": 440.3
+},
+{
+"state": "SC",
+"county": "Chester",
+"fips": "45023",
+"lon": -81.1595,
+"lat": 34.6922,
+"x": 938.4,
+"y": 448.3
+},
+{
+"state": "SC",
+"county": "Dillon",
+"fips": "45033",
+"lon": -79.3802,
+"lat": 34.3905,
+"x": 978.6,
+"y": 449.9
+},
+{
+"state": "SC",
+"county": "Dorchester",
+"fips": "45035",
+"lon": -80.4044,
+"lat": 33.0781,
+"x": 962.0,
+"y": 489.1
+},
+{
+"state": "SC",
+"county": "Georgetown",
+"fips": "45043",
+"lon": -79.333,
+"lat": 33.4311,
+"x": 984.2,
+"y": 475.5
+},
+{
+"state": "SC",
+"county": "Greenville",
+"fips": "45045",
+"lon": -82.3698,
+"lat": 34.8931,
+"x": 911.2,
+"y": 446.9
+},
+{
+"state": "SC",
+"county": "Horry",
+"fips": "45051",
+"lon": -78.9971,
+"lat": 33.9212,
+"x": 989.2,
+"y": 461.0
+},
+{
+"state": "SC",
+"county": "Lancaster",
+"fips": "45057",
+"lon": -80.7062,
+"lat": 34.6881,
+"x": 948.3,
+"y": 446.8
+},
+{
+"state": "SC",
+"county": "Laurens",
+"fips": "45059",
+"lon": -82.0066,
+"lat": 34.4828,
+"x": 920.8,
+"y": 456.8
+},
+{
+"state": "SC",
+"county": "Lexington",
+"fips": "45063",
+"lon": -81.2729,
+"lat": 33.9027,
+"x": 939.3,
+"y": 470.0
+},
+{
+"state": "SC",
+"county": "Oconee",
+"fips": "45073",
+"lon": -83.0663,
+"lat": 34.754,
+"x": 896.5,
+"y": 452.8
+},
+{
+"state": "SC",
+"county": "Pickens",
+"fips": "45077",
+"lon": -82.7257,
+"lat": 34.8882,
+"x": 903.5,
+"y": 448.1
+},
+{
+"state": "SC",
+"county": "Richland",
+"fips": "45079",
+"lon": -80.9051,
+"lat": 34.022,
+"x": 946.8,
+"y": 465.5
+},
+{
+"state": "SC",
+"county": "York",
+"fips": "45091",
+"lon": -81.1853,
+"lat": 34.9746,
+"x": 936.6,
+"y": 440.8
+},
+{
+"state": "VA",
+"county": "Albemarle",
+"fips": "51003",
+"lon": -78.5549,
+"lat": 38.0244,
+"x": 978.4,
+"y": 349.1
+},
+{
+"state": "VA",
+"county": "Appomattox",
+"fips": "51011",
+"lon": -78.8105,
+"lat": 37.3723,
+"x": 976.3,
+"y": 367.6
+},
+{
+"state": "VA",
+"county": "Augusta",
+"fips": "51015",
+"lon": -79.1283,
+"lat": 38.1632,
+"x": 965.9,
+"y": 347.5
+},
+{
+"state": "VA",
+"county": "Campbell",
+"fips": "51031",
+"lon": -79.0966,
+"lat": 37.2066,
+"x": 971.1,
+"y": 373.2
+},
+{
+"state": "VA",
+"county": "Chesapeake",
+"fips": "51550",
+"lon": -76.3006,
+"lat": 36.6779,
+"x": 1032.7,
+"y": 375.9
+},
+{
+"state": "VA",
+"county": "Chesterfield",
+"fips": "51041",
+"lon": -77.5896,
+"lat": 37.379,
+"x": 1001.8,
+"y": 362.6
+},
+{
+"state": "VA",
+"county": "Colonial Heights",
+"fips": "51570",
+"lon": -77.3996,
+"lat": 37.2655,
+"x": 1006.4,
+"y": 364.8
+},
+{
+"state": "VA",
+"county": "Franklin",
+"fips": "51067",
+"lon": -79.8801,
+"lat": 36.9918,
+"x": 955.7,
+"y": 381.8
+},
+{
+"state": "VA",
+"county": "Halifax",
+"fips": "51083",
+"lon": -78.937,
+"lat": 36.7664,
+"x": 976.6,
+"y": 384.4
+},
+{
+"state": "VA",
+"county": "Hampton",
+"fips": "51650",
+"lon": -76.3613,
+"lat": 37.0559,
+"x": 1029.3,
+"y": 366.0
+},
+{
+"state": "VA",
+"county": "Henry",
+"fips": "51089",
+"lon": -79.8744,
+"lat": 36.6816,
+"x": 957.2,
+"y": 390.2
+},
+{
+"state": "VA",
+"county": "Hopewell",
+"fips": "51670",
+"lon": -77.3004,
+"lat": 37.2908,
+"x": 1008.4,
+"y": 363.8
+},
+{
+"state": "VA",
+"county": "Isle of Wight",
+"fips": "51093",
+"lon": -76.7249,
+"lat": 36.8907,
+"x": 1022.6,
+"y": 372.0
+},
+{
+"state": "VA",
+"county": "Mecklenburg",
+"fips": "51117",
+"lon": -78.3616,
+"lat": 36.681,
+"x": 989.2,
+"y": 384.4
+},
+{
+"state": "VA",
+"county": "Newport News",
+"fips": "51700",
+"lon": -76.5207,
+"lat": 37.1075,
+"x": 1025.7,
+"y": 365.3
+},
+{
+"state": "VA",
+"county": "Norfolk",
+"fips": "51710",
+"lon": -76.2579,
+"lat": 36.8958,
+"x": 1032.4,
+"y": 369.9
+},
+{
+"state": "VA",
+"county": "Petersburg",
+"fips": "51730",
+"lon": -77.3936,
+"lat": 37.2036,
+"x": 1006.9,
+"y": 366.5
+},
+{
+"state": "VA",
+"county": "Pittsylvania",
+"fips": "51143",
+"lon": -79.3966,
+"lat": 36.8207,
+"x": 966.7,
+"y": 384.7
+},
+{
+"state": "VA",
+"county": "Portsmouth",
+"fips": "51740",
+"lon": -76.3566,
+"lat": 36.8504,
+"x": 1030.5,
+"y": 371.5
+},
+{
+"state": "VA",
+"county": "Prince George",
+"fips": "51149",
+"lon": -77.2257,
+"lat": 37.1859,
+"x": 1010.5,
+"y": 366.3
+},
+{
+"state": "VA",
+"county": "Richmond",
+"fips": "51159",
+"lon": -76.7286,
+"lat": 37.9437,
+"x": 1016.7,
+"y": 343.9
+},
+{
+"state": "VA",
+"county": "Roanoke",
+"fips": "51770",
+"lon": -79.9569,
+"lat": 37.282,
+"x": 952.7,
+"y": 374.3
+},
+{
+"state": "VA",
+"county": "Salem",
+"fips": "51775",
+"lon": -80.0613,
+"lat": 37.2875,
+"x": 950.5,
+"y": 374.5
+},
+{
+"state": "VA",
+"county": "Suffolk",
+"fips": "51800",
+"lon": -76.6384,
+"lat": 36.6961,
+"x": 1025.5,
+"y": 376.9
+},
+{
+"state": "VA",
+"county": "Virginia Beach",
+"fips": "51810",
+"lon": -76.0429,
+"lat": 36.7332,
+"x": 1037.8,
+"y": 373.2
+},
+{
+"state": "VA",
+"county": "Williamsburg",
+"fips": "51830",
+"lon": -76.699,
+"lat": 37.269,
+"x": 1021.0,
+"y": 361.8
+},
+{
+"state": "DE",
+"county": "Kent",
+"fips": "10001",
+"lon": -75.5678,
+"lat": 39.0872,
+"x": 1034.1,
+"y": 308.2
+},
+{
+"state": "DE",
+"county": "New Castle",
+"fips": "10003",
+"lon": -75.6494,
+"lat": 39.5799,
+"x": 1029.5,
+"y": 295.5
+},
+{
+"state": "DE",
+"county": "Sussex",
+"fips": "10005",
+"lon": -75.3897,
+"lat": 38.6612,
+"x": 1040.2,
+"y": 318.8
+},
+{
+"state": "IL",
+"county": "Boone",
+"fips": "17007",
+"lon": -88.8239,
+"lat": 42.3229,
+"x": 754.7,
+"y": 260.1
+},
+{
+"state": "IL",
+"county": "Brown",
+"fips": "17009",
+"lon": -90.7495,
+"lat": 39.9612,
+"x": 720.1,
+"y": 326.9
+},
+{
+"state": "IL",
+"county": "Bureau",
+"fips": "17011",
+"lon": -89.5288,
+"lat": 41.4046,
+"x": 742.5,
+"y": 286.1
+},
+{
+"state": "IL",
+"county": "Cass",
+"fips": "17017",
+"lon": -90.2465,
+"lat": 39.9733,
+"x": 730.4,
+"y": 326.0
+},
+{
+"state": "IL",
+"county": "Champaign",
+"fips": "17019",
+"lon": -88.1998,
+"lat": 40.1398,
+"x": 772.0,
+"y": 318.5
+},
+{
+"state": "IL",
+"county": "Christian",
+"fips": "17021",
+"lon": -89.2775,
+"lat": 39.5461,
+"x": 751.1,
+"y": 336.3
+},
+{
+"state": "IL",
+"county": "Clinton",
+"fips": "17027",
+"lon": -89.422,
+"lat": 38.6074,
+"x": 749.9,
+"y": 362.1
+},
+{
+"state": "IL",
+"county": "Cook",
+"fips": "17031",
+"lon": -87.8168,
+"lat": 41.8401,
+"x": 775.8,
+"y": 271.6
+},
+{
+"state": "IL",
+"county": "DeKalb",
+"fips": "17037",
+"lon": -88.7691,
+"lat": 41.8931,
+"x": 756.7,
+"y": 271.7
+},
+{
+"state": "IL",
+"county": "DuPage",
+"fips": "17043",
+"lon": -88.0864,
+"lat": 41.852,
+"x": 770.4,
+"y": 271.7
+},
+{
+"state": "IL",
+"county": "Fulton",
+"fips": "17057",
+"lon": -90.207,
+"lat": 40.4724,
+"x": 730.4,
+"y": 312.3
+},
+{
+"state": "IL",
+"county": "Grundy",
+"fips": "17063",
+"lon": -88.4192,
+"lat": 41.286,
+"x": 765.0,
+"y": 287.6
+},
+{
+"state": "IL",
+"county": "Henry",
+"fips": "17073",
+"lon": -90.131,
+"lat": 41.3532,
+"x": 730.4,
+"y": 288.2
+},
+{
+"state": "IL",
+"county": "Iroquois",
+"fips": "17075",
+"lon": -87.8259,
+"lat": 40.7471,
+"x": 778.2,
+"y": 301.3
+},
+{
+"state": "IL",
+"county": "Jo Daviess",
+"fips": "17085",
+"lon": -90.2124,
+"lat": 42.365,
+"x": 727.1,
+"y": 260.8
+},
+{
+"state": "IL",
+"county": "Kane",
+"fips": "17089",
+"lon": -88.4281,
+"lat": 41.9394,
+"x": 763.4,
+"y": 269.9
+},
+{
+"state": "IL",
+"county": "Kankakee",
+"fips": "17091",
+"lon": -87.8624,
+"lat": 41.1375,
+"x": 776.5,
+"y": 290.7
+},
+{
+"state": "IL",
+"county": "Kendall",
+"fips": "17093",
+"lon": -88.4292,
+"lat": 41.5907,
+"x": 764.1,
+"y": 279.4
+},
+{
+"state": "IL",
+"county": "LaSalle",
+"fips": "17099",
+"lon": -88.887,
+"lat": 41.3437,
+"x": 755.5,
+"y": 286.8
+},
+{
+"state": "IL",
+"county": "Lake",
+"fips": "17097",
+"lon": -88.003,
+"lat": 42.3225,
+"x": 771.0,
+"y": 258.8
+},
+{
+"state": "IL",
+"county": "Lee",
+"fips": "17103",
+"lon": -89.2995,
+"lat": 41.7468,
+"x": 746.4,
+"y": 276.4
+},
+{
+"state": "IL",
+"county": "Macon",
+"fips": "17115",
+"lon": -88.9618,
+"lat": 39.8598,
+"x": 757.0,
+"y": 327.3
+},
+{
+"state": "IL",
+"county": "Macoupin",
+"fips": "17117",
+"lon": -89.9243,
+"lat": 39.261,
+"x": 738.2,
+"y": 345.0
+},
+{
+"state": "IL",
+"county": "Madison",
+"fips": "17119",
+"lon": -89.9053,
+"lat": 38.8302,
+"x": 739.4,
+"y": 356.7
+},
+{
+"state": "IL",
+"county": "McHenry",
+"fips": "17111",
+"lon": -88.4519,
+"lat": 42.3244,
+"x": 762.1,
+"y": 259.5
+},
+{
+"state": "IL",
+"county": "Mercer",
+"fips": "17131",
+"lon": -90.7426,
+"lat": 41.2057,
+"x": 718.4,
+"y": 293.0
+},
+{
+"state": "IL",
+"county": "Morgan",
+"fips": "17137",
+"lon": -90.2016,
+"lat": 39.7161,
+"x": 731.7,
+"y": 332.9
+},
+{
+"state": "IL",
+"county": "Ogle",
+"fips": "17141",
+"lon": -89.3199,
+"lat": 42.0429,
+"x": 745.4,
+"y": 268.4
+},
+{
+"state": "IL",
+"county": "Peoria",
+"fips": "17143",
+"lon": -89.761,
+"lat": 40.7882,
+"x": 738.9,
+"y": 303.2
+},
+{
+"state": "IL",
+"county": "Pike",
+"fips": "17149",
+"lon": -90.8867,
+"lat": 39.622,
+"x": 717.8,
+"y": 336.3
+},
+{
+"state": "IL",
+"county": "Rock Island",
+"fips": "17161",
+"lon": -90.5696,
+"lat": 41.4658,
+"x": 721.4,
+"y": 285.7
+},
+{
+"state": "IL",
+"county": "Sangamon",
+"fips": "17167",
+"lon": -89.6594,
+"lat": 39.758,
+"x": 742.8,
+"y": 331.1
+},
+{
+"state": "IL",
+"county": "Schuyler",
+"fips": "17169",
+"lon": -90.6159,
+"lat": 40.158,
+"x": 722.5,
+"y": 321.4
+},
+{
+"state": "IL",
+"county": "Scott",
+"fips": "17171",
+"lon": -90.4741,
+"lat": 39.6444,
+"x": 726.2,
+"y": 335.2
+},
+{
+"state": "IL",
+"county": "St. Clair",
+"fips": "17163",
+"lon": -89.9282,
+"lat": 38.4699,
+"x": 739.5,
+"y": 366.6
+},
+{
+"state": "IL",
+"county": "Tazewell",
+"fips": "17179",
+"lon": -89.5139,
+"lat": 40.5078,
+"x": 744.4,
+"y": 310.5
+},
+{
+"state": "IL",
+"county": "Winnebago",
+"fips": "17201",
+"lon": -89.1615,
+"lat": 42.3365,
+"x": 748.0,
+"y": 260.2
+},
+{
+"state": "LA",
+"county": "Acadia",
+"fips": "22001",
+"lon": -92.4124,
+"lat": 30.291,
+"x": 695.9,
+"y": 592.0
+},
+{
+"state": "LA",
+"county": "Ascension",
+"fips": "22005",
+"lon": -90.9125,
+"lat": 30.2029,
+"x": 731.0,
+"y": 592.8
+},
+{
+"state": "LA",
+"county": "Assumption",
+"fips": "22007",
+"lon": -91.0624,
+"lat": 29.9011,
+"x": 727.9,
+"y": 601.1
+},
+{
+"state": "LA",
+"county": "Avoyelles",
+"fips": "22009",
+"lon": -92.0014,
+"lat": 31.0762,
+"x": 704.6,
+"y": 570.3
+},
+{
+"state": "LA",
+"county": "Caldwell",
+"fips": "22021",
+"lon": -92.1165,
+"lat": 32.0924,
+"x": 700.8,
+"y": 542.8
+},
+{
+"state": "LA",
+"county": "Claiborne",
+"fips": "22027",
+"lon": -92.9946,
+"lat": 32.8227,
+"x": 680.2,
+"y": 523.7
+},
+{
+"state": "LA",
+"county": "De Soto",
+"fips": "22031",
+"lon": -93.7375,
+"lat": 32.0551,
+"x": 663.9,
+"y": 545.1
+},
+{
+"state": "LA",
+"county": "East Baton Rouge",
+"fips": "22033",
+"lon": -91.097,
+"lat": 30.5383,
+"x": 726.2,
+"y": 583.9
+},
+{
+"state": "LA",
+"county": "Evangeline",
+"fips": "22039",
+"lon": -92.4051,
+"lat": 30.7283,
+"x": 695.6,
+"y": 580.1
+},
+{
+"state": "LA",
+"county": "Franklin",
+"fips": "22041",
+"lon": -91.6727,
+"lat": 32.1339,
+"x": 710.9,
+"y": 541.3
+},
+{
+"state": "LA",
+"county": "Grant",
+"fips": "22043",
+"lon": -92.5582,
+"lat": 31.5999,
+"x": 691.2,
+"y": 556.6
+},
+{
+"state": "LA",
+"county": "Iberia",
+"fips": "22045",
+"lon": -91.7012,
+"lat": 29.9681,
+"x": 712.9,
+"y": 600.0
+},
+{
+"state": "LA",
+"county": "Jackson",
+"fips": "22049",
+"lon": -92.5582,
+"lat": 32.302,
+"x": 690.5,
+"y": 537.5
+},
+{
+"state": "LA",
+"county": "Jefferson",
+"fips": "22051",
+"lon": -90.1129,
+"lat": 29.7419,
+"x": 750.4,
+"y": 604.2
+},
+{
+"state": "LA",
+"county": "Jefferson Davis",
+"fips": "22053",
+"lon": -92.8145,
+"lat": 30.2674,
+"x": 686.5,
+"y": 593.0
+},
+{
+"state": "LA",
+"county": "Lafayette",
+"fips": "22055",
+"lon": -92.0627,
+"lat": 30.2059,
+"x": 704.1,
+"y": 594.0
+},
+{
+"state": "LA",
+"county": "Lincoln",
+"fips": "22061",
+"lon": -92.6648,
+"lat": 32.6014,
+"x": 687.8,
+"y": 529.5
+},
+{
+"state": "LA",
+"county": "Livingston",
+"fips": "22063",
+"lon": -90.7287,
+"lat": 30.4395,
+"x": 734.9,
+"y": 586.1
+},
+{
+"state": "LA",
+"county": "Morehouse",
+"fips": "22067",
+"lon": -91.8041,
+"lat": 32.8207,
+"x": 707.0,
+"y": 522.7
+},
+{
+"state": "LA",
+"county": "Natchitoches",
+"fips": "22069",
+"lon": -93.0963,
+"lat": 31.7227,
+"x": 678.8,
+"y": 553.7
+},
+{
+"state": "LA",
+"county": "Orleans",
+"fips": "22071",
+"lon": -89.9272,
+"lat": 30.0701,
+"x": 754.2,
+"y": 595.0
+},
+{
+"state": "LA",
+"county": "Ouachita",
+"fips": "22073",
+"lon": -92.1555,
+"lat": 32.4781,
+"x": 699.5,
+"y": 532.4
+},
+{
+"state": "LA",
+"county": "Plaquemines",
+"fips": "22075",
+"lon": -89.6232,
+"lat": 29.4333,
+"x": 762.4,
+"y": 611.8
+},
+{
+"state": "LA",
+"county": "Rapides",
+"fips": "22079",
+"lon": -92.5329,
+"lat": 31.1978,
+"x": 692.2,
+"y": 567.5
+},
+{
+"state": "LA",
+"county": "Richland",
+"fips": "22083",
+"lon": -91.7645,
+"lat": 32.4174,
+"x": 708.4,
+"y": 533.7
+},
+{
+"state": "LA",
+"county": "St. Bernard",
+"fips": "22087",
+"lon": -89.587,
+"lat": 29.8599,
+"x": 762.5,
+"y": 600.2
+},
+{
+"state": "LA",
+"county": "St. Charles",
+"fips": "22089",
+"lon": -90.3583,
+"lat": 29.9054,
+"x": 744.4,
+"y": 600.1
+},
+{
+"state": "LA",
+"county": "St. Helena",
+"fips": "22091",
+"lon": -90.711,
+"lat": 30.8214,
+"x": 734.7,
+"y": 575.8
+},
+{
+"state": "LA",
+"county": "St. James",
+"fips": "22093",
+"lon": -90.7962,
+"lat": 30.0269,
+"x": 734.0,
+"y": 597.4
+},
+{
+"state": "LA",
+"county": "St. Martin",
+"fips": "22099",
+"lon": -91.7266,
+"lat": 30.2277,
+"x": 712.0,
+"y": 593.0
+},
+{
+"state": "LA",
+"county": "St. Tammany",
+"fips": "22103",
+"lon": -89.9574,
+"lat": 30.4103,
+"x": 752.9,
+"y": 585.9
+},
+{
+"state": "LA",
+"county": "St. John the Baptist",
+"fips": "22095",
+"lon": -90.4708,
+"lat": 30.1265,
+"x": 741.4,
+"y": 594.3
+},
+{
+"state": "LA",
+"county": "St. Landry",
+"fips": "22097",
+"lon": -92.0037,
+"lat": 30.5971,
+"x": 705.1,
+"y": 583.3
+},
+{
+"state": "LA",
+"county": "Tangipahoa",
+"fips": "22105",
+"lon": -90.405,
+"lat": 30.6263,
+"x": 742.1,
+"y": 580.7
+},
+{
+"state": "LA",
+"county": "Union",
+"fips": "22111",
+"lon": -92.3745,
+"lat": 32.8312,
+"x": 694.2,
+"y": 523.0
+},
+{
+"state": "LA",
+"county": "Vermilion",
+"fips": "22113",
+"lon": -92.3236,
+"lat": 29.8463,
+"x": 698.4,
+"y": 604.0
+},
+{
+"state": "LA",
+"county": "West Baton Rouge",
+"fips": "22121",
+"lon": -91.3147,
+"lat": 30.4638,
+"x": 721.3,
+"y": 586.2
+},
+{
+"state": "LA",
+"county": "Winn",
+"fips": "22127",
+"lon": -92.637,
+"lat": 31.944,
+"x": 689.1,
+"y": 547.3
+},
+{
+"state": "LA",
+"county": "Terrebonne",
+"fips": "22109",
+"lon": -90.867,
+"lat": 29.4129,
+"x": 733.2,
+"y": 614.1
+},
+{
+"state": "TX",
+"county": "Bastrop",
+"fips": "48021",
+"lon": -97.3116,
+"lat": 30.1038,
+"x": 581.6,
+"y": 598.4
+},
+{
+"state": "TX",
+"county": "Bell",
+"fips": "48027",
+"lon": -97.4789,
+"lat": 31.0373,
+"x": 578.0,
+"y": 573.1
+},
+{
+"state": "TX",
+"county": "Brazoria",
+"fips": "48039",
+"lon": -95.4518,
+"lat": 29.189,
+"x": 625.2,
+"y": 623.4
+},
+{
+"state": "TX",
+"county": "Brown",
+"fips": "48049",
+"lon": -98.9985,
+"lat": 31.775,
+"x": 543.6,
+"y": 552.2
+},
+{
+"state": "TX",
+"county": "Callahan",
+"fips": "48059",
+"lon": -99.3732,
+"lat": 32.2978,
+"x": 535.5,
+"y": 537.7
+},
+{
+"state": "TX",
+"county": "Camp",
+"fips": "48063",
+"lon": -94.9797,
+"lat": 32.9735,
+"x": 635.2,
+"y": 520.6
+},
+{
+"state": "TX",
+"county": "Coleman",
+"fips": "48083",
+"lon": -99.4533,
+"lat": 31.772,
+"x": 533.1,
+"y": 551.9
+},
+{
+"state": "TX",
+"county": "Collin",
+"fips": "48085",
+"lon": -96.5725,
+"lat": 33.188,
+"x": 599.3,
+"y": 514.8
+},
+{
+"state": "TX",
+"county": "Comanche",
+"fips": "48093",
+"lon": -98.5578,
+"lat": 31.9483,
+"x": 553.8,
+"y": 547.8
+},
+{
+"state": "TX",
+"county": "Dallas",
+"fips": "48113",
+"lon": -96.7775,
+"lat": 32.7666,
+"x": 594.6,
+"y": 526.2
+},
+{
+"state": "TX",
+"county": "Denton",
+"fips": "48121",
+"lon": -97.1175,
+"lat": 33.2052,
+"x": 587.1,
+"y": 514.2
+},
+{
+"state": "TX",
+"county": "Eastland",
+"fips": "48133",
+"lon": -98.8322,
+"lat": 32.327,
+"x": 547.8,
+"y": 537.3
+},
+{
+"state": "TX",
+"county": "Ellis",
+"fips": "48139",
+"lon": -96.794,
+"lat": 32.3486,
+"x": 594.2,
+"y": 537.6
+},
+{
+"state": "TX",
+"county": "Erath",
+"fips": "48143",
+"lon": -98.2174,
+"lat": 32.2359,
+"x": 561.7,
+"y": 540.2
+},
+{
+"state": "TX",
+"county": "Galveston",
+"fips": "48167",
+"lon": -95.0466,
+"lat": 29.3994,
+"x": 634.7,
+"y": 617.6
+},
+{
+"state": "TX",
+"county": "Grayson",
+"fips": "48181",
+"lon": -96.6785,
+"lat": 33.6269,
+"x": 597.0,
+"y": 502.8
+},
+{
+"state": "TX",
+"county": "Gregg",
+"fips": "48183",
+"lon": -94.8175,
+"lat": 32.4808,
+"x": 639.1,
+"y": 533.9
+},
+{
+"state": "TX",
+"county": "Hardin",
+"fips": "48199",
+"lon": -94.3904,
+"lat": 30.3317,
+"x": 649.8,
+"y": 592.2
+},
+{
+"state": "TX",
+"county": "Harris",
+"fips": "48201",
+"lon": -95.3928,
+"lat": 29.8567,
+"x": 626.5,
+"y": 605.3
+},
+{
+"state": "TX",
+"county": "Hill",
+"fips": "48217",
+"lon": -97.131,
+"lat": 31.9907,
+"x": 586.4,
+"y": 547.3
+},
+{
+"state": "TX",
+"county": "Hood",
+"fips": "48221",
+"lon": -97.8328,
+"lat": 32.43,
+"x": 570.6,
+"y": 535.1
+},
+{
+"state": "TX",
+"county": "Hunt",
+"fips": "48231",
+"lon": -96.0851,
+"lat": 33.1239,
+"x": 610.3,
+"y": 516.6
+},
+{
+"state": "TX",
+"county": "Jasper",
+"fips": "48241",
+"lon": -94.0266,
+"lat": 30.7459,
+"x": 658.0,
+"y": 580.8
+},
+{
+"state": "TX",
+"county": "Jefferson",
+"fips": "48245",
+"lon": -94.1625,
+"lat": 29.8828,
+"x": 655.3,
+"y": 604.2
+},
+{
+"state": "TX",
+"county": "Jim Wells",
+"fips": "48249",
+"lon": -98.0902,
+"lat": 27.7297,
+"x": 561.9,
+"y": 662.2
+},
+{
+"state": "TX",
+"county": "Johnson",
+"fips": "48251",
+"lon": -97.3659,
+"lat": 32.379,
+"x": 581.2,
+"y": 536.6
+},
+{
+"state": "TX",
+"county": "Kaufman",
+"fips": "48257",
+"lon": -96.288,
+"lat": 32.5991,
+"x": 605.7,
+"y": 530.9
+},
+{
+"state": "TX",
+"county": "Liberty",
+"fips": "48291",
+"lon": -94.8126,
+"lat": 30.1507,
+"x": 640.0,
+"y": 597.2
+},
+{
+"state": "TX",
+"county": "Marion",
+"fips": "48315",
+"lon": -94.3577,
+"lat": 32.7984,
+"x": 649.4,
+"y": 525.1
+},
+{
+"state": "TX",
+"county": "Mills",
+"fips": "48333",
+"lon": -98.595,
+"lat": 31.4957,
+"x": 552.6,
+"y": 560.1
+},
+{
+"state": "TX",
+"county": "Navarro",
+"fips": "48349",
+"lon": -96.4717,
+"lat": 32.0473,
+"x": 601.5,
+"y": 545.9
+},
+{
+"state": "TX",
+"county": "Nueces",
+"fips": "48355",
+"lon": -97.6468,
+"lat": 27.7232,
+"x": 572.6,
+"y": 662.6
+},
+{
+"state": "TX",
+"county": "Orange",
+"fips": "48361",
+"lon": -93.893,
+"lat": 30.1195,
+"x": 661.5,
+"y": 597.7
+},
+{
+"state": "TX",
+"county": "Parker",
+"fips": "48367",
+"lon": -97.8047,
+"lat": 32.7778,
+"x": 571.4,
+"y": 525.6
+},
+{
+"state": "TX",
+"county": "Rockwall",
+"fips": "48397",
+"lon": -96.4071,
+"lat": 32.898,
+"x": 603.0,
+"y": 522.7
+},
+{
+"state": "TX",
+"county": "Stephens",
+"fips": "48429",
+"lon": -98.8355,
+"lat": 32.7354,
+"x": 548.1,
+"y": 526.2
+},
+{
+"state": "TX",
+"county": "Trinity",
+"fips": "48455",
+"lon": -95.135,
+"lat": 31.0888,
+"x": 632.2,
+"y": 571.8
+},
+{
+"state": "TX",
+"county": "Tyler",
+"fips": "48457",
+"lon": -94.3763,
+"lat": 30.7709,
+"x": 649.9,
+"y": 580.2
+},
+{
+"state": "TX",
+"county": "Upshur",
+"fips": "48459",
+"lon": -94.942,
+"lat": 32.736,
+"x": 636.2,
+"y": 527.0
+},
+{
+"state": "TX",
+"county": "Walker",
+"fips": "48471",
+"lon": -95.5718,
+"lat": 30.7395,
+"x": 622.2,
+"y": 581.4
+},
+{
+"state": "TX",
+"county": "Webb",
+"fips": "48479",
+"lon": -99.3316,
+"lat": 27.761,
+"x": 532.1,
+"y": 660.6
+},
+{
+"state": "TX",
+"county": "Williamson",
+"fips": "48491",
+"lon": -97.5997,
+"lat": 30.6478,
+"x": 575.1,
+"y": 583.6
+},
+{
+"state": "TX",
+"county": "Wise",
+"fips": "48497",
+"lon": -97.6549,
+"lat": 33.2155,
+"x": 575.0,
+"y": 513.8
+},
+{
+"state": "TX",
+"county": "Wood",
+"fips": "48499",
+"lon": -95.3821,
+"lat": 32.7871,
+"x": 626.2,
+"y": 525.7
+},
+{
+"state": "TN",
+"county": "Anderson",
+"fips": "47001",
+"lon": -84.1994,
+"lat": 36.1194,
+"x": 867.1,
+"y": 419.0
+},
+{
+"state": "TN",
+"county": "Chester",
+"fips": "47023",
+"lon": -88.6136,
+"lat": 35.422,
+"x": 773.5,
+"y": 447.6
+},
+{
+"state": "TN",
+"county": "Cocke",
+"fips": "47029",
+"lon": -83.1217,
+"lat": 35.9265,
+"x": 891.0,
+"y": 421.2
+},
+{
+"state": "TN",
+"county": "Crockett",
+"fips": "47033",
+"lon": -89.1408,
+"lat": 35.8134,
+"x": 761.3,
+"y": 437.8
+},
+{
+"state": "TN",
+"county": "Dyer",
+"fips": "47045",
+"lon": -89.4138,
+"lat": 36.0586,
+"x": 754.9,
+"y": 431.6
+},
+{
+"state": "TN",
+"county": "Greene",
+"fips": "47059",
+"lon": -82.8453,
+"lat": 36.174,
+"x": 896.0,
+"y": 413.7
+},
+{
+"state": "TN",
+"county": "Hancock",
+"fips": "47067",
+"lon": -83.2228,
+"lat": 36.5256,
+"x": 886.6,
+"y": 405.3
+},
+{
+"state": "TN",
+"county": "Hawkins",
+"fips": "47073",
+"lon": -82.9445,
+"lat": 36.4415,
+"x": 892.9,
+"y": 406.8
+},
+{
+"state": "TN",
+"county": "Henderson",
+"fips": "47077",
+"lon": -88.3886,
+"lat": 35.6541,
+"x": 777.9,
+"y": 440.9
+},
+{
+"state": "TN",
+"county": "Henry",
+"fips": "47079",
+"lon": -88.3031,
+"lat": 36.3314,
+"x": 778.3,
+"y": 422.3
+},
+{
+"state": "TN",
+"county": "Lake",
+"fips": "47095",
+"lon": -89.4924,
+"lat": 36.3374,
+"x": 752.7,
+"y": 424.1
+},
+{
+"state": "TN",
+"county": "Obion",
+"fips": "47131",
+"lon": -89.1486,
+"lat": 36.3582,
+"x": 760.0,
+"y": 423.0
+},
+{
+"state": "TN",
+"county": "Shelby",
+"fips": "47157",
+"lon": -89.8957,
+"lat": 35.1847,
+"x": 746.0,
+"y": 456.1
+},
+{
+"state": "TN",
+"county": "Washington",
+"fips": "47179",
+"lon": -82.4975,
+"lat": 36.2926,
+"x": 903.0,
+"y": 409.4
+},
+{
+"state": "TN",
+"county": "Weakley",
+"fips": "47183",
+"lon": -88.7176,
+"lat": 36.2988,
+"x": 769.4,
+"y": 423.9
+},
+{
+"state": "TN",
+"county": "Robertson",
+"fips": "47147",
+"lon": -86.869,
+"lat": 36.5252,
+"x": 808.6,
+"y": 414.3
+},
+{
+"state": "TN",
+"county": "Sumner",
+"fips": "47165",
+"lon": -86.4589,
+"lat": 36.4694,
+"x": 817.6,
+"y": 415.0
+},
+{
+"state": "TN",
+"county": "Macon",
+"fips": "47111",
+"lon": -86.0069,
+"lat": 36.5323,
+"x": 827.1,
+"y": 412.3
+},
+{
+"state": "TN",
+"county": "Montgomery",
+"fips": "47125",
+"lon": -87.381,
+"lat": 36.4967,
+"x": 797.7,
+"y": 416.1
+},
+{
+"state": "TN",
+"county": "Davidson",
+"fips": "47037",
+"lon": -86.7844,
+"lat": 36.1699,
+"x": 811.4,
+"y": 423.8
+},
+{
+"state": "TN",
+"county": "Wilson",
+"fips": "47189",
+"lon": -86.2974,
+"lat": 36.1536,
+"x": 821.9,
+"y": 423.2
+},
+{
+"state": "MS",
+"county": "Copiah",
+"fips": "28029",
+"lon": -90.4494,
+"lat": 31.8697,
+"x": 739.1,
+"y": 547.0
+},
+{
+"state": "MS",
+"county": "Choctaw",
+"fips": "28019",
+"lon": -89.2482,
+"lat": 33.3473,
+"x": 763.7,
+"y": 505.1
+},
+{
+"state": "MS",
+"county": "Covington",
+"fips": "28031",
+"lon": -89.5538,
+"lat": 31.6332,
+"x": 760.0,
+"y": 552.1
+},
+{
+"state": "MS",
+"county": "DeSoto",
+"fips": "28033",
+"lon": -89.9905,
+"lat": 34.876,
+"x": 744.4,
+"y": 464.6
+},
+{
+"state": "MS",
+"county": "Forrest",
+"fips": "28035",
+"lon": -89.2581,
+"lat": 31.1894,
+"x": 767.6,
+"y": 563.7
+},
+{
+"state": "MS",
+"county": "George",
+"fips": "28039",
+"lon": -88.6436,
+"lat": 30.863,
+"x": 782.5,
+"y": 571.5
+},
+{
+"state": "MS",
+"county": "Hancock",
+"fips": "28045",
+"lon": -89.4887,
+"lat": 30.4162,
+"x": 763.8,
+"y": 585.0
+},
+{
+"state": "MS",
+"county": "Harrison",
+"fips": "28047",
+"lon": -89.1144,
+"lat": 30.5128,
+"x": 772.3,
+"y": 581.8
+},
+{
+"state": "MS",
+"county": "Hinds",
+"fips": "28049",
+"lon": -90.4429,
+"lat": 32.2665,
+"x": 738.7,
+"y": 536.2
+},
+{
+"state": "MS",
+"county": "Jackson",
+"fips": "28059",
+"lon": -88.6371,
+"lat": 30.5442,
+"x": 783.3,
+"y": 580.1
+},
+{
+"state": "MS",
+"county": "Lamar",
+"fips": "28073",
+"lon": -89.5095,
+"lat": 31.2054,
+"x": 761.8,
+"y": 563.7
+},
+{
+"state": "MS",
+"county": "Lawrence",
+"fips": "28077",
+"lon": -90.1068,
+"lat": 31.5499,
+"x": 747.5,
+"y": 555.2
+},
+{
+"state": "MS",
+"county": "Lincoln",
+"fips": "28085",
+"lon": -90.453,
+"lat": 31.5334,
+"x": 739.6,
+"y": 556.1
+},
+{
+"state": "MS",
+"county": "Madison",
+"fips": "28089",
+"lon": -90.0323,
+"lat": 32.6341,
+"x": 747.4,
+"y": 525.7
+},
+{
+"state": "MS",
+"county": "Marion",
+"fips": "28091",
+"lon": -89.8227,
+"lat": 31.2307,
+"x": 754.6,
+"y": 563.4
+},
+{
+"state": "MS",
+"county": "Pearl River",
+"fips": "28109",
+"lon": -89.5895,
+"lat": 30.7683,
+"x": 760.8,
+"y": 575.6
+},
+{
+"state": "MS",
+"county": "Pike",
+"fips": "28113",
+"lon": -90.4047,
+"lat": 31.1747,
+"x": 741.3,
+"y": 565.8
+},
+{
+"state": "MS",
+"county": "Rankin",
+"fips": "28121",
+"lon": -89.9464,
+"lat": 32.2635,
+"x": 749.9,
+"y": 535.6
+},
+{
+"state": "MS",
+"county": "Sharkey",
+"fips": "28125",
+"lon": -90.8136,
+"lat": 32.8804,
+"x": 729.3,
+"y": 520.0
+},
+{
+"state": "MS",
+"county": "Simpson",
+"fips": "28127",
+"lon": -89.9209,
+"lat": 31.9131,
+"x": 751.1,
+"y": 545.1
+},
+{
+"state": "MS",
+"county": "Smith",
+"fips": "28129",
+"lon": -89.5069,
+"lat": 32.0177,
+"x": 760.4,
+"y": 541.6
+},
+{
+"state": "MS",
+"county": "Stone",
+"fips": "28131",
+"lon": -89.1164,
+"lat": 30.79,
+"x": 771.7,
+"y": 574.3
+},
+{
+"state": "TN",
+"county": "Tipton",
+"fips": "47167",
+"lon": -89.7371,
+"lat": 35.5001,
+"x": 748.9,
+"y": 447.3
+},
+{
+"state": "MS",
+"county": "Warren",
+"fips": "28149",
+"lon": -90.8478,
+"lat": 32.3574,
+"x": 729.3,
+"y": 534.3
+},
+{
+"state": "MS",
+"county": "Yazoo",
+"fips": "28163",
+"lon": -90.3953,
+"lat": 32.7805,
+"x": 738.9,
+"y": 522.2
+},
+{
+"state": "WI",
+"county": "Ashland",
+"fips": "55003",
+"lon": -90.6831,
+"lat": 46.2664,
+"x": 711.9,
+"y": 155.7
+},
+{
+"state": "WI",
+"county": "Barron",
+"fips": "55005",
+"lon": -91.8478,
+"lat": 45.4236,
+"x": 691.1,
+"y": 179.5
+},
+{
+"state": "WI",
+"county": "Bayfield",
+"fips": "55007",
+"lon": -91.2018,
+"lat": 46.5232,
+"x": 701.8,
+"y": 149.3
+},
+{
+"state": "WI",
+"county": "Chippewa",
+"fips": "55017",
+"lon": -91.2798,
+"lat": 45.0692,
+"x": 702.3,
+"y": 188.6
+},
+{
+"state": "WI",
+"county": "Clark",
+"fips": "55019",
+"lon": -90.612,
+"lat": 44.7347,
+"x": 715.5,
+"y": 197.0
+},
+{
+"state": "WI",
+"county": "Douglas",
+"fips": "55031",
+"lon": -91.9164,
+"lat": 46.4323,
+"x": 688.6,
+"y": 152.3
+},
+{
+"state": "WI",
+"county": "Kenosha",
+"fips": "55059",
+"lon": -88.0419,
+"lat": 42.5759,
+"x": 769.6,
+"y": 252.0
+},
+{
+"state": "WI",
+"county": "Langlade",
+"fips": "55067",
+"lon": -89.0722,
+"lat": 45.2622,
+"x": 744.0,
+"y": 180.8
+},
+{
+"state": "WI",
+"county": "Lincoln",
+"fips": "55069",
+"lon": -89.7351,
+"lat": 45.3372,
+"x": 731.3,
+"y": 179.7
+},
+{
+"state": "WI",
+"county": "Marathon",
+"fips": "55073",
+"lon": -89.7596,
+"lat": 44.8984,
+"x": 731.6,
+"y": 191.5
+},
+{
+"state": "WI",
+"county": "Milwaukee",
+"fips": "55079",
+"lon": -87.9675,
+"lat": 43.0054,
+"x": 770.1,
+"y": 240.2
+},
+{
+"state": "WI",
+"county": "Oconto",
+"fips": "55083",
+"lon": -88.2679,
+"lat": 45.0256,
+"x": 759.8,
+"y": 186.0
+},
+{
+"state": "WI",
+"county": "Oneida",
+"fips": "55085",
+"lon": -89.5211,
+"lat": 45.705,
+"x": 734.6,
+"y": 169.4
+},
+{
+"state": "WI",
+"county": "Racine",
+"fips": "55101",
+"lon": -88.06,
+"lat": 42.7471,
+"x": 768.9,
+"y": 247.4
+},
+{
+"state": "WI",
+"county": "Sawyer",
+"fips": "55113",
+"lon": -91.145,
+"lat": 45.8798,
+"x": 703.8,
+"y": 166.6
+},
+{
+"state": "WI",
+"county": "Shawano",
+"fips": "55115",
+"lon": -88.765,
+"lat": 44.789,
+"x": 750.8,
+"y": 193.2
+},
+{
+"state": "WI",
+"county": "Taylor",
+"fips": "55119",
+"lon": -90.5017,
+"lat": 45.2113,
+"x": 716.9,
+"y": 184.0
+},
+{
+"state": "WI",
+"county": "Vilas",
+"fips": "55125",
+"lon": -89.5152,
+"lat": 46.0527,
+"x": 734.1,
+"y": 160.1
+},
+{
+"state": "WI",
+"county": "Washburn",
+"fips": "55129",
+"lon": -91.7916,
+"lat": 45.8988,
+"x": 691.5,
+"y": 166.6
+},
+{
+"state": "WI",
+"county": "Ozaukee",
+"fips": "55089",
+"lon": -87.9514,
+"lat": 43.3835,
+"x": 769.6,
+"y": 229.9
+},
+{
+"state": "WI",
+"county": "Iowa",
+"fips": "55049",
+"lon": -90.1356,
+"lat": 43.0008,
+"x": 727.6,
+"y": 243.4
+},
+{
+"state": "WI",
+"county": "Richland",
+"fips": "55103",
+"lon": -90.4296,
+"lat": 43.3762,
+"x": 721.2,
+"y": 233.6
+},
+{
+"state": "WI",
+"county": "Sauk",
+"fips": "55111",
+"lon": -89.9486,
+"lat": 43.4275,
+"x": 730.5,
+"y": 231.6
+},
+{
+"state": "WI",
+"county": "Burnett",
+"fips": "55013",
+"lon": -92.3678,
+"lat": 45.8628,
+"x": 680.7,
+"y": 168.0
+},
+{
+"state": "IN",
+"county": "Adams",
+"fips": "18001",
+"lon": -84.9373,
+"lat": 40.7461,
+"x": 836.6,
+"y": 295.4
+},
+{
+"state": "IN",
+"county": "Allen",
+"fips": "18003",
+"lon": -85.0659,
+"lat": 41.0911,
+"x": 832.9,
+"y": 286.3
+},
+{
+"state": "IN",
+"county": "Carroll",
+"fips": "18015",
+"lon": -86.5632,
+"lat": 40.5829,
+"x": 804.2,
+"y": 303.4
+},
+{
+"state": "IN",
+"county": "Cass",
+"fips": "18017",
+"lon": -86.3476,
+"lat": 40.7621,
+"x": 808.1,
+"y": 298.1
+},
+{
+"state": "IN",
+"county": "Clinton",
+"fips": "18023",
+"lon": -86.4744,
+"lat": 40.3022,
+"x": 806.8,
+"y": 310.8
+},
+{
+"state": "IN",
+"county": "DeKalb",
+"fips": "18033",
+"lon": -84.9981,
+"lat": 41.3978,
+"x": 833.3,
+"y": 277.9
+},
+{
+"state": "IN",
+"county": "Grant",
+"fips": "18053",
+"lon": -85.6547,
+"lat": 40.5159,
+"x": 822.8,
+"y": 303.3
+},
+{
+"state": "IN",
+"county": "Huntington",
+"fips": "18069",
+"lon": -85.4881,
+"lat": 40.8287,
+"x": 825.2,
+"y": 294.4
+},
+{
+"state": "IN",
+"county": "LaPorte",
+"fips": "18091",
+"lon": -86.7399,
+"lat": 41.5458,
+"x": 798.0,
+"y": 277.6
+},
+{
+"state": "IN",
+"county": "Madison",
+"fips": "18095",
+"lon": -85.7187,
+"lat": 40.1611,
+"x": 822.5,
+"y": 313.0
+},
+{
+"state": "IN",
+"county": "Marion",
+"fips": "18097",
+"lon": -86.1382,
+"lat": 39.7817,
+"x": 815.1,
+"y": 324.3
+},
+{
+"state": "IN",
+"county": "Noble",
+"fips": "18113",
+"lon": -85.417,
+"lat": 41.3981,
+"x": 824.9,
+"y": 278.8
+},
+{
+"state": "IN",
+"county": "Steuben",
+"fips": "18151",
+"lon": -85.0016,
+"lat": 41.6441,
+"x": 832.5,
+"y": 271.2
+},
+{
+"state": "IN",
+"county": "Tippecanoe",
+"fips": "18157",
+"lon": -86.8937,
+"lat": 40.3887,
+"x": 798.0,
+"y": 309.3
+},
+{
+"state": "IN",
+"county": "White",
+"fips": "18181",
+"lon": -86.8665,
+"lat": 40.7494,
+"x": 797.6,
+"y": 299.5
+},
+{
+"state": "IN",
+"county": "Whitley",
+"fips": "18183",
+"lon": -85.5048,
+"lat": 41.1393,
+"x": 824.0,
+"y": 286.0
+},
+{
+"state": "IN",
+"county": "Lake",
+"fips": "18089",
+"lon": -87.3823,
+"lat": 41.4179,
+"x": 785.5,
+"y": 282.3
+},
+{
+"state": "IN",
+"county": "Jasper",
+"fips": "18073",
+"lon": -87.1164,
+"lat": 41.0229,
+"x": 791.8,
+"y": 292.5
+},
+{
+"state": "IN",
+"county": "Newton",
+"fips": "18111",
+"lon": -87.3981,
+"lat": 40.9559,
+"x": 786.3,
+"y": 294.9
+},
+{
+"state": "IN",
+"county": "Kosciusko",
+"fips": "18085",
+"lon": -85.8613,
+"lat": 41.2446,
+"x": 816.5,
+"y": 284.0
+},
+{
+"state": "AL",
+"county": "Blount",
+"fips": "01009",
+"lon": -86.5661,
+"lat": 33.9815,
+"x": 822.0,
+"y": 482.8
+},
+{
+"state": "AL",
+"county": "Calhoun",
+"fips": "01015",
+"lon": -85.8259,
+"lat": 33.7712,
+"x": 839.0,
+"y": 486.8
+},
+{
+"state": "AL",
+"county": "Jefferson",
+"fips": "01073",
+"lon": -86.8956,
+"lat": 33.5547,
+"x": 815.8,
+"y": 495.1
+},
+{
+"state": "AL",
+"county": "Montgomery",
+"fips": "01101",
+"lon": -86.2078,
+"lat": 32.2201,
+"x": 834.9,
+"y": 529.7
+},
+{
+"state": "AL",
+"county": "Pike",
+"fips": "01109",
+"lon": -85.9414,
+"lat": 31.8023,
+"x": 842.1,
+"y": 540.4
+},
+{
+"state": "AL",
+"county": "St. Clair",
+"fips": "01115",
+"lon": -86.3158,
+"lat": 33.7148,
+"x": 828.3,
+"y": 489.5
+},
+{
+"state": "AL",
+"county": "Shelby",
+"fips": "01117",
+"lon": -86.6626,
+"lat": 33.2641,
+"x": 821.8,
+"y": 502.5
+},
+{
+"state": "AL",
+"county": "Talladega",
+"fips": "01121",
+"lon": -86.1665,
+"lat": 33.3794,
+"x": 832.5,
+"y": 498.2
+},
+{
+"state": "AL",
+"county": "Chambers",
+"fips": "01017",
+"lon": -85.3921,
+"lat": 32.9133,
+"x": 851.2,
+"y": 509.0
+},
+{
+"state": "AL",
+"county": "Lee",
+"fips": "01081",
+"lon": -85.355,
+"lat": 32.6008,
+"x": 853.0,
+"y": 517.3
+},
+{
+"state": "AL",
+"county": "Russell",
+"fips": "01113",
+"lon": -85.1851,
+"lat": 32.2882,
+"x": 857.8,
+"y": 525.3
+},
+{
+"state": "MA",
+"county": "Franklin",
+"fips": "25011",
+"lon": -72.5912,
+"lat": 42.5831,
+"x": 1071.1,
+"y": 201.6
+},
+{
+"state": "MA",
+"county": "Hampden",
+"fips": "25013",
+"lon": -72.6313,
+"lat": 42.1349,
+"x": 1073.3,
+"y": 213.6
+},
+{
+"state": "MA",
+"county": "Worcester",
+"fips": "25027",
+"lon": -71.9072,
+"lat": 42.3514,
+"x": 1085.8,
+"y": 204.3
+},
+{
+"state": "MA",
+"county": "Plymouth",
+"fips": "25023",
+"lon": -70.8123,
+"lat": 41.9537,
+"x": 1109.6,
+"y": 209.2
+},
+{
+"state": "MA",
+"county": "Bristol",
+"fips": "25005",
+"lon": -71.1141,
+"lat": 41.7968,
+"x": 1104.9,
+"y": 214.9
+},
+{
+"state": "MA",
+"county": "Essex",
+"fips": "25009",
+"lon": -70.9518,
+"lat": 42.6717,
+"x": 1101.9,
+"y": 191.1
+},
+{
+"state": "MA",
+"county": "Hampshire",
+"fips": "25015",
+"lon": -72.6634,
+"lat": 42.3403,
+"x": 1071.3,
+"y": 208.3
+},
+{
+"state": "MO",
+"county": "Franklin",
+"fips": "29071",
+"lon": -91.0752,
+"lat": 38.4107,
+"x": 715.6,
+"y": 369.6
+},
+{
+"state": "MO",
+"county": "Jefferson",
+"fips": "29099",
+"lon": -90.5364,
+"lat": 38.2622,
+"x": 727.1,
+"y": 373.0
+},
+{
+"state": "MO",
+"county": "Lincoln",
+"fips": "29113",
+"lon": -90.9597,
+"lat": 39.0572,
+"x": 717.1,
+"y": 351.8
+},
+{
+"state": "MO",
+"county": "St. Charles",
+"fips": "29183",
+"lon": -90.6739,
+"lat": 38.782,
+"x": 723.4,
+"y": 359.0
+},
+{
+"state": "MO",
+"county": "St. Louis",
+"fips": "29189",
+"lon": -90.4455,
+"lat": 38.641,
+"x": 728.4,
+"y": 362.6
+},
+{
+"state": "MO",
+"county": "Warren",
+"fips": "29219",
+"lon": -91.1597,
+"lat": 38.7642,
+"x": 713.3,
+"y": 360.0
+},
+{
+"state": "DC",
+"county": "District of Columbia",
+"fips": "11001",
+"lon": -77.0154,
+"lat": 38.9034,
+"x": 1005.6,
+"y": 319.4
+},
+{
+"state": "NH",
+"county": "Belknap",
+"fips": "33001",
+"lon": -71.4226,
+"lat": 43.5181,
+"x": 1087.0,
+"y": 171.2
+},
+{
+"state": "NH",
+"county": "Hillsborough",
+"fips": "33011",
+"lon": -71.7164,
+"lat": 42.9154,
+"x": 1085.6,
+"y": 188.5
+},
+{
+"state": "NH",
+"county": "Merrimack",
+"fips": "33013",
+"lon": -71.6797,
+"lat": 43.2966,
+"x": 1083.6,
+"y": 178.3
+},
+{
+"state": "NH",
+"county": "Rockingham",
+"fips": "33015",
+"lon": -71.1245,
+"lat": 42.9871,
+"x": 1096.3,
+"y": 183.7
+},
+{
+"state": "NH",
+"county": "Strafford",
+"fips": "33017",
+"lon": -71.0294,
+"lat": 43.2981,
+"x": 1096.0,
+"y": 175.0
+},
+{
+"state": "KS",
+"county": "Sedgwick",
+"fips": "20173",
+"lon": -97.4611,
+"lat": 37.6852,
+"x": 581.2,
+"y": 391.8
+},
+{
+"state": "KS",
+"county": "Shawnee",
+"fips": "20177",
+"lon": -95.758,
+"lat": 39.0419,
+"x": 617.3,
+"y": 355.0
+},
+{
+"state": "KS",
+"county": "Johnson",
+"fips": "20091",
+"lon": -94.8237,
+"lat": 38.8833,
+"x": 636.8,
+"y": 359.2
+},
+{
+"state": "KS",
+"county": "Wyandotte",
+"fips": "20209",
+"lon": -94.7665,
+"lat": 39.1142,
+"x": 637.9,
+"y": 352.9
+},
+{
+"state": "KS",
+"county": "Leavenworth",
+"fips": "20103",
+"lon": -95.0371,
+"lat": 39.2,
+"x": 632.2,
+"y": 350.6
+},
+{
+"state": "KS",
+"county": "Douglas",
+"fips": "20045",
+"lon": -95.2931,
+"lat": 38.8847,
+"x": 627.0,
+"y": 359.2
+},
+{
+"state": "CT",
+"county": "Fairfield",
+"fips": "09001",
+"lon": -73.3893,
+"lat": 41.2692,
+"x": 1064.2,
+"y": 240.2
+},
+{
+"state": "CT",
+"county": "Hartford",
+"fips": "09003",
+"lon": -72.7333,
+"lat": 41.8065,
+"x": 1073.5,
+"y": 222.8
+},
+{
+"state": "CT",
+"county": "Middlesex",
+"fips": "09007",
+"lon": -72.5336,
+"lat": 41.4634,
+"x": 1079.6,
+"y": 230.9
+},
+{
+"state": "CT",
+"county": "New Haven",
+"fips": "09009",
+"lon": -72.9316,
+"lat": 41.411,
+"x": 1072.2,
+"y": 234.2
+},
+{
+"state": "CT",
+"county": "New London",
+"fips": "09011",
+"lon": -72.1025,
+"lat": 41.4878,
+"x": 1087.9,
+"y": 228.1
+},
+{
+"state": "CT",
+"county": "Windham",
+"fips": "09015",
+"lon": -71.9871,
+"lat": 41.8306,
+"x": 1087.8,
+"y": 218.5
+},
+{
+"state": "CT",
+"county": "Litchfield",
+"fips": "09005",
+"lon": -73.2463,
+"lat": 41.7922,
+"x": 1063.6,
+"y": 225.6
+},
+{
+"state": "CT",
+"county": "Tolland",
+"fips": "09013",
+"lon": -72.3359,
+"lat": 41.8552,
+"x": 1080.9,
+"y": 219.6
+},
+{
+"state": "KY",
+"county": "Henderson",
+"fips": "21101",
+"lon": -87.5727,
+"lat": 37.7959,
+"x": 790.5,
+"y": 381.1
+},
+{
+"state": "KY",
+"county": "Daviess",
+"fips": "21059",
+"lon": -87.0863,
+"lat": 37.7319,
+"x": 800.9,
+"y": 381.9
+},
+{
+"state": "KY",
+"county": "Madison",
+"fips": "21151",
+"lon": -84.277,
+"lat": 37.7203,
+"x": 860.1,
+"y": 375.8
+},
+{
+"state": "KY",
+"county": "Fayette",
+"fips": "21067",
+"lon": -84.4587,
+"lat": 38.0429,
+"x": 855.2,
+"y": 367.5
+},
+{
+"state": "KY",
+"county": "Bourbon",
+"fips": "21017",
+"lon": -84.2173,
+"lat": 38.2063,
+"x": 859.7,
+"y": 362.5
+},
+{
+"state": "KY",
+"county": "Clark",
+"fips": "21049",
+"lon": -84.1484,
+"lat": 37.9707,
+"x": 862.0,
+"y": 368.7
+},
+{
+"state": "KY",
+"county": "Estill",
+"fips": "21065",
+"lon": -83.9643,
+"lat": 37.6919,
+"x": 866.8,
+"y": 375.8
+},
+{
+"state": "KY",
+"county": "Garrard",
+"fips": "21079",
+"lon": -84.5389,
+"lat": 37.6405,
+"x": 854.9,
+"y": 378.7
+},
+{
+"state": "KY",
+"county": "Lincoln",
+"fips": "21137",
+"lon": -84.6597,
+"lat": 37.4539,
+"x": 852.9,
+"y": 384.0
+},
+{
+"state": "KY",
+"county": "Boyle",
+"fips": "21021",
+"lon": -84.8674,
+"lat": 37.6238,
+"x": 848.0,
+"y": 379.9
+},
+{
+"state": "MN",
+"county": "Aitkin",
+"fips": "27001",
+"lon": -93.4156,
+"lat": 46.6083,
+"x": 660.4,
+"y": 148.6
+},
+{
+"state": "MN",
+"county": "Anoka",
+"fips": "27003",
+"lon": -93.2465,
+"lat": 45.2741,
+"x": 664.6,
+"y": 184.5
+},
+{
+"state": "MN",
+"county": "Benton",
+"fips": "27009",
+"lon": -93.998,
+"lat": 45.698,
+"x": 650.1,
+"y": 173.4
+},
+{
+"state": "MN",
+"county": "Dakota",
+"fips": "27037",
+"lon": -93.0645,
+"lat": 44.6723,
+"x": 668.6,
+"y": 200.7
+},
+{
+"state": "MN",
+"county": "Douglas",
+"fips": "27041",
+"lon": -95.4538,
+"lat": 45.9336,
+"x": 622.5,
+"y": 167.4
+},
+{
+"state": "MN",
+"county": "Hennepin",
+"fips": "27053",
+"lon": -93.4766,
+"lat": 45.0052,
+"x": 660.4,
+"y": 191.9
+},
+{
+"state": "MN",
+"county": "Isanti",
+"fips": "27059",
+"lon": -93.2947,
+"lat": 45.5624,
+"x": 663.5,
+"y": 176.8
+},
+{
+"state": "MN",
+"county": "Lake",
+"fips": "27075",
+"lon": -91.4436,
+"lat": 47.6403,
+"x": 695.9,
+"y": 119.4
+},
+{
+"state": "MN",
+"county": "Meeker",
+"fips": "27093",
+"lon": -94.5297,
+"lat": 45.1232,
+"x": 640.3,
+"y": 189.2
+},
+{
+"state": "MN",
+"county": "Mille Lacs",
+"fips": "27095",
+"lon": -93.6303,
+"lat": 45.9376,
+"x": 656.9,
+"y": 166.8
+},
+{
+"state": "MN",
+"county": "Morrison",
+"fips": "27097",
+"lon": -94.2687,
+"lat": 46.0117,
+"x": 644.8,
+"y": 165.0
+},
+{
+"state": "MN",
+"county": "Pine",
+"fips": "27115",
+"lon": -92.7414,
+"lat": 46.1205,
+"x": 673.4,
+"y": 161.3
+},
+{
+"state": "MN",
+"county": "Ramsey",
+"fips": "27123",
+"lon": -93.0993,
+"lat": 45.0178,
+"x": 667.6,
+"y": 191.4
+},
+{
+"state": "MN",
+"county": "Rice",
+"fips": "27131",
+"lon": -93.2966,
+"lat": 44.3543,
+"x": 664.4,
+"y": 209.5
+},
+{
+"state": "MN",
+"county": "St. Louis",
+"fips": "27137",
+"lon": -92.4699,
+"lat": 47.6027,
+"x": 677.1,
+"y": 121.2
+},
+{
+"state": "MN",
+"county": "Sherburne",
+"fips": "27141",
+"lon": -93.7748,
+"lat": 45.4434,
+"x": 654.5,
+"y": 180.2
+},
+{
+"state": "MN",
+"county": "Stearns",
+"fips": "27145",
+"lon": -94.6138,
+"lat": 45.5522,
+"x": 638.5,
+"y": 177.6
+},
+{
+"state": "MN",
+"county": "Wright",
+"fips": "27171",
+"lon": -93.9652,
+"lat": 45.1733,
+"x": 651.0,
+"y": 187.6
+},
+{
+"state": "MI",
+"county": "Cheboygan",
+"fips": "26031",
+"lon": -84.5008,
+"lat": 45.4466,
+"x": 830.0,
+"y": 167.4
+},
+{
+"state": "MI",
+"county": "Otsego",
+"fips": "26137",
+"lon": -84.5989,
+"lat": 45.021,
+"x": 829.5,
+"y": 179.1
+},
+{
+"state": "MI",
+"county": "Montmorency",
+"fips": "26119",
+"lon": -84.1264,
+"lat": 45.0281,
+"x": 838.5,
+"y": 177.8
+},
+{
+"state": "MI",
+"county": "Presque Isle",
+"fips": "26141",
+"lon": -83.9176,
+"lat": 45.3413,
+"x": 841.3,
+"y": 168.9
+},
+{
+"state": "MI",
+"county": "Alcona",
+"fips": "26001",
+"lon": -83.5942,
+"lat": 44.6845,
+"x": 849.7,
+"y": 185.7
+},
+{
+"state": "MI",
+"county": "Arenac",
+"fips": "26011",
+"lon": -83.8945,
+"lat": 44.0652,
+"x": 846.2,
+"y": 203.2
+},
+{
+"state": "MI",
+"county": "Gladwin",
+"fips": "26051",
+"lon": -84.3891,
+"lat": 43.9907,
+"x": 836.9,
+"y": 206.4
+},
+{
+"state": "MI",
+"county": "Clare",
+"fips": "26035",
+"lon": -84.8482,
+"lat": 43.9878,
+"x": 828.1,
+"y": 207.5
+},
+{
+"state": "MI",
+"county": "Roscommon",
+"fips": "26143",
+"lon": -84.6126,
+"lat": 44.3355,
+"x": 831.5,
+"y": 197.6
+},
+{
+"state": "MI",
+"county": "Crawford",
+"fips": "26039",
+"lon": -84.6099,
+"lat": 44.6833,
+"x": 830.4,
+"y": 188.2
+},
+{
+"state": "MI",
+"county": "Ogemaw",
+"fips": "26129",
+"lon": -84.1279,
+"lat": 44.3346,
+"x": 840.8,
+"y": 196.5
+},
+{
+"state": "MI",
+"county": "Oscoda",
+"fips": "26135",
+"lon": -84.1298,
+"lat": 44.6818,
+"x": 839.6,
+"y": 187.1
+},
+{
+"state": "MI",
+"county": "Iosco",
+"fips": "26069",
+"lon": -83.6361,
+"lat": 44.3554,
+"x": 850.1,
+"y": 194.7
+},
+{
+"state": "MI",
+"county": "Lenawee",
+"fips": "26091",
+"lon": -84.0658,
+"lat": 41.8952,
+"x": 850.3,
+"y": 262.2
+},
+{
+"state": "MI",
+"county": "Marquette",
+"fips": "26103",
+"lon": -87.6417,
+"lat": 46.4318,
+"x": 768.3,
+"y": 147.1
+},
+{
+"state": "MI",
+"county": "Luce",
+"fips": "26095",
+"lon": -85.5439,
+"lat": 46.4704,
+"x": 807.3,
+"y": 142.2
+},
+{
+"state": "MI",
+"county": "Alger",
+"fips": "26003",
+"lon": -86.6069,
+"lat": 46.4072,
+"x": 787.7,
+"y": 146.0
+},
+{
+"state": "MI",
+"county": "Delta",
+"fips": "26041",
+"lon": -86.9249,
+"lat": 45.9209,
+"x": 783.0,
+"y": 159.6
+},
+{
+"state": "MI",
+"county": "Schoolcraft",
+"fips": "26153",
+"lon": -86.199,
+"lat": 46.1965,
+"x": 795.9,
+"y": 150.9
+},
+{
+"state": "MI",
+"county": "Isabella",
+"fips": "26073",
+"lon": -84.8474,
+"lat": 43.6406,
+"x": 829.2,
+"y": 216.9
+},
+{
+"state": "MI",
+"county": "Livingston",
+"fips": "26093",
+"lon": -83.9118,
+"lat": 42.6031,
+"x": 850.9,
+"y": 242.6
+},
+{
+"state": "GA",
+"county": "Bibb",
+"fips": "13021",
+"lon": -83.6992,
+"lat": 32.8062,
+"x": 889.6,
+"y": 507.3
+},
+{
+"state": "GA",
+"county": "Bleckley",
+"fips": "13023",
+"lon": -83.3282,
+"lat": 32.4346,
+"x": 899.2,
+"y": 516.2
+},
+{
+"state": "GA",
+"county": "Camden",
+"fips": "13039",
+"lon": -81.6706,
+"lat": 30.9296,
+"x": 942.6,
+"y": 551.3
+},
+{
+"state": "GA",
+"county": "Carroll",
+"fips": "13045",
+"lon": -85.0808,
+"lat": 33.5823,
+"x": 856.1,
+"y": 490.1
+},
+{
+"state": "GA",
+"county": "Chatham",
+"fips": "13051",
+"lon": -81.1325,
+"lat": 32.0042,
+"x": 950.4,
+"y": 520.6
+},
+{
+"state": "GA",
+"county": "Cherokee",
+"fips": "13057",
+"lon": -84.4751,
+"lat": 34.2436,
+"x": 867.4,
+"y": 470.6
+},
+{
+"state": "GA",
+"county": "Clayton",
+"fips": "13063",
+"lon": -84.3575,
+"lat": 33.5435,
+"x": 872.3,
+"y": 489.2
+},
+{
+"state": "GA",
+"county": "Cobb",
+"fips": "13067",
+"lon": -84.5765,
+"lat": 33.9416,
+"x": 866.2,
+"y": 479.0
+},
+{
+"state": "GA",
+"county": "Coweta",
+"fips": "13077",
+"lon": -84.7628,
+"lat": 33.3537,
+"x": 863.9,
+"y": 495.4
+},
+{
+"state": "GA",
+"county": "Decatur",
+"fips": "13087",
+"lon": -84.5793,
+"lat": 30.8783,
+"x": 876.1,
+"y": 561.8
+},
+{
+"state": "GA",
+"county": "DeKalb",
+"fips": "13089",
+"lon": -84.2254,
+"lat": 33.7685,
+"x": 874.5,
+"y": 482.7
+},
+{
+"state": "GA",
+"county": "Douglas",
+"fips": "13097",
+"lon": -84.7702,
+"lat": 33.7015,
+"x": 862.7,
+"y": 486.0
+},
+{
+"state": "GA",
+"county": "Fayette",
+"fips": "13113",
+"lon": -84.4925,
+"lat": 33.4118,
+"x": 869.8,
+"y": 493.1
+},
+{
+"state": "GA",
+"county": "Fulton",
+"fips": "13121",
+"lon": -84.4678,
+"lat": 33.7893,
+"x": 869.1,
+"y": 482.8
+},
+{
+"state": "GA",
+"county": "Glynn",
+"fips": "13127",
+"lon": -81.5384,
+"lat": 31.2292,
+"x": 944.4,
+"y": 542.8
+},
+{
+"state": "GA",
+"county": "Gwinnett",
+"fips": "13135",
+"lon": -84.0246,
+"lat": 33.9615,
+"x": 878.3,
+"y": 477.0
+},
+{
+"state": "GA",
+"county": "Harris",
+"fips": "13145",
+"lon": -84.9086,
+"lat": 32.7358,
+"x": 862.6,
+"y": 512.5
+},
+{
+"state": "GA",
+"county": "Henry",
+"fips": "13151",
+"lon": -84.1534,
+"lat": 33.4524,
+"x": 877.2,
+"y": 491.1
+},
+{
+"state": "GA",
+"county": "Houston",
+"fips": "13153",
+"lon": -83.6662,
+"lat": 32.4597,
+"x": 891.5,
+"y": 516.5
+},
+{
+"state": "GA",
+"county": "Laurens",
+"fips": "13175",
+"lon": -82.9216,
+"lat": 32.4633,
+"x": 908.3,
+"y": 514.2
+},
+{
+"state": "GA",
+"county": "Liberty",
+"fips": "13179",
+"lon": -81.4952,
+"lat": 31.8282,
+"x": 942.9,
+"y": 526.6
+},
+{
+"state": "GA",
+"county": "McIntosh",
+"fips": "13191",
+"lon": -81.408,
+"lat": 31.4949,
+"x": 946.3,
+"y": 535.2
+},
+{
+"state": "GA",
+"county": "Muscogee",
+"fips": "13215",
+"lon": -84.8749,
+"lat": 32.51,
+"x": 864.1,
+"y": 518.5
+},
+{
+"state": "GA",
+"county": "Peach",
+"fips": "13225",
+"lon": -83.8275,
+"lat": 32.5688,
+"x": 887.5,
+"y": 514.0
+},
+{
+"state": "GA",
+"county": "Pulaski",
+"fips": "13235",
+"lon": -83.476,
+"lat": 32.2335,
+"x": 896.6,
+"y": 522.1
+},
+{
+"state": "GA",
+"county": "Rockdale",
+"fips": "13247",
+"lon": -84.0237,
+"lat": 33.6549,
+"x": 879.4,
+"y": 485.3
+},
+{
+"state": "GA",
+"county": "Spalding",
+"fips": "13255",
+"lon": -84.283,
+"lat": 33.2608,
+"x": 874.9,
+"y": 496.6
+},
+{
+"state": "GA",
+"county": "Troup",
+"fips": "13285",
+"lon": -85.0291,
+"lat": 33.0332,
+"x": 859.0,
+"y": 504.8
+},
+{
+"state": "GA",
+"county": "Twiggs",
+"fips": "13289",
+"lon": -83.4274,
+"lat": 32.6684,
+"x": 896.1,
+"y": 510.2
+},
+{
+"state": "OH",
+"county": "Ashtabula",
+"fips": "39007",
+"lon": -80.7495,
+"lat": 41.7076,
+"x": 916.7,
+"y": 257.7
+},
+{
+"state": "OH",
+"county": "Athens",
+"fips": "39009",
+"lon": -82.0455,
+"lat": 39.3341,
+"x": 900.5,
+"y": 325.8
+},
+{
+"state": "OH",
+"county": "Coshocton",
+"fips": "39031",
+"lon": -81.9203,
+"lat": 40.3022,
+"x": 899.2,
+"y": 299.3
+},
+{
+"state": "OH",
+"county": "Cuyahoga",
+"fips": "39035",
+"lon": -81.6594,
+"lat": 41.4246,
+"x": 899.9,
+"y": 268.2
+},
+{
+"state": "OH",
+"county": "Darke",
+"fips": "39037",
+"lon": -84.6195,
+"lat": 40.134,
+"x": 845.0,
+"y": 311.2
+},
+{
+"state": "OH",
+"county": "Erie",
+"fips": "39043",
+"lon": -82.6393,
+"lat": 41.3708,
+"x": 880.5,
+"y": 272.5
+},
+{
+"state": "OH",
+"county": "Fairfield",
+"fips": "39045",
+"lon": -82.6291,
+"lat": 39.7499,
+"x": 887.0,
+"y": 316.3
+},
+{
+"state": "OH",
+"county": "Franklin",
+"fips": "39049",
+"lon": -83.0079,
+"lat": 39.9683,
+"x": 878.4,
+"y": 311.5
+},
+{
+"state": "OH",
+"county": "Geauga",
+"fips": "39055",
+"lon": -81.179,
+"lat": 41.4993,
+"x": 909.1,
+"y": 264.7
+},
+{
+"state": "OH",
+"county": "Guernsey",
+"fips": "39059",
+"lon": -81.4941,
+"lat": 40.0519,
+"x": 908.8,
+"y": 304.7
+},
+{
+"state": "OH",
+"county": "Hardin",
+"fips": "39065",
+"lon": -83.6593,
+"lat": 40.6613,
+"x": 862.7,
+"y": 294.5
+},
+{
+"state": "OH",
+"county": "Hocking",
+"fips": "39073",
+"lon": -82.4795,
+"lat": 39.497,
+"x": 891.0,
+"y": 322.7
+},
+{
+"state": "OH",
+"county": "Jackson",
+"fips": "39079",
+"lon": -82.6184,
+"lat": 39.0203,
+"x": 890.0,
+"y": 336.0
+},
+{
+"state": "OH",
+"county": "Lake",
+"fips": "39085",
+"lon": -81.2367,
+"lat": 41.697,
+"x": 907.1,
+"y": 259.6
+},
+{
+"state": "OH",
+"county": "Licking",
+"fips": "39089",
+"lon": -82.4829,
+"lat": 40.0917,
+"x": 888.6,
+"y": 306.6
+},
+{
+"state": "OH",
+"county": "Logan",
+"fips": "39091",
+"lon": -83.7659,
+"lat": 40.3887,
+"x": 861.5,
+"y": 302.2
+},
+{
+"state": "OH",
+"county": "Lorain",
+"fips": "39093",
+"lon": -82.1511,
+"lat": 41.2951,
+"x": 890.6,
+"y": 273.2
+},
+{
+"state": "OH",
+"county": "Lucas",
+"fips": "39095",
+"lon": -83.6551,
+"lat": 41.6209,
+"x": 859.4,
+"y": 268.5
+},
+{
+"state": "OH",
+"county": "Mahoning",
+"fips": "39099",
+"lon": -80.7775,
+"lat": 41.0146,
+"x": 919.2,
+"y": 276.5
+},
+{
+"state": "OH",
+"county": "Marion",
+"fips": "39101",
+"lon": -83.1599,
+"lat": 40.5876,
+"x": 873.0,
+"y": 295.1
+},
+{
+"state": "OH",
+"county": "Medina",
+"fips": "39103",
+"lon": -81.8988,
+"lat": 41.1177,
+"x": 896.3,
+"y": 277.2
+},
+{
+"state": "OH",
+"county": "Monroe",
+"fips": "39111",
+"lon": -81.0827,
+"lat": 39.7273,
+"x": 918.6,
+"y": 312.2
+},
+{
+"state": "OH",
+"county": "Muskingum",
+"fips": "39119",
+"lon": -81.9449,
+"lat": 39.9658,
+"x": 900.0,
+"y": 308.4
+},
+{
+"state": "OH",
+"county": "Ottawa",
+"fips": "39123",
+"lon": -83.121,
+"lat": 41.531,
+"x": 870.3,
+"y": 269.5
+},
+{
+"state": "OH",
+"county": "Perry",
+"fips": "39127",
+"lon": -82.2369,
+"lat": 39.7379,
+"x": 895.0,
+"y": 315.5
+},
+{
+"state": "OH",
+"county": "Portage",
+"fips": "39133",
+"lon": -81.1973,
+"lat": 41.1682,
+"x": 910.1,
+"y": 273.7
+},
+{
+"state": "OH",
+"county": "Preble",
+"fips": "39135",
+"lon": -84.6483,
+"lat": 39.7424,
+"x": 845.7,
+"y": 321.9
+},
+{
+"state": "OH",
+"county": "Sandusky",
+"fips": "39143",
+"lon": -83.1447,
+"lat": 41.3572,
+"x": 870.5,
+"y": 274.3
+},
+{
+"state": "OH",
+"county": "Scioto",
+"fips": "39145",
+"lon": -82.9921,
+"lat": 38.804,
+"x": 883.1,
+"y": 342.9
+},
+{
+"state": "OH",
+"county": "Seneca",
+"fips": "39147",
+"lon": -83.1271,
+"lat": 41.1236,
+"x": 871.7,
+"y": 280.6
+},
+{
+"state": "OH",
+"county": "Stark",
+"fips": "39151",
+"lon": -81.3665,
+"lat": 40.8137,
+"x": 908.2,
+"y": 283.8
+},
+{
+"state": "OH",
+"county": "Summit",
+"fips": "39153",
+"lon": -81.532,
+"lat": 41.1258,
+"x": 903.6,
+"y": 275.9
+},
+{
+"state": "OH",
+"county": "Trumbull",
+"fips": "39155",
+"lon": -80.7604,
+"lat": 41.3173,
+"x": 918.2,
+"y": 268.3
+},
+{
+"state": "OH",
+"county": "Tuscarawas",
+"fips": "39157",
+"lon": -81.4745,
+"lat": 40.4414,
+"x": 907.6,
+"y": 294.2
+},
+{
+"state": "OH",
+"county": "Union",
+"fips": "39159",
+"lon": -83.3714,
+"lat": 40.2992,
+"x": 869.8,
+"y": 303.5
+},
+{
+"state": "OH",
+"county": "Vinton",
+"fips": "39163",
+"lon": -82.4862,
+"lat": 39.2513,
+"x": 891.8,
+"y": 329.4
+},
+{
+"state": "OH",
+"county": "Knox",
+"fips": "39083",
+"lon": -82.4236,
+"lat": 40.3995,
+"x": 888.6,
+"y": 298.1
+}
+],
+"listing": {
+"NY": [
+"Albany",
+"Broome",
+"Cattaraugus",
+"Cayuga",
+"Chautauqua",
+"Chemung",
+"Chenango",
+"Cortland",
+"Dutchess",
+"Genesee",
+"Herkimer",
+"Jefferson",
+"Kings",
+"Madison",
+"Monroe",
+"Nassau",
+"Oneida",
+"Orange",
+"Orleans",
+"Queens",
+"Rensselaer",
+"St. Lawrence",
+"Saratoga",
+"Schenectady",
+"Schuyler",
+"Seneca",
+"Steuben",
+"Suffolk",
+"Sullivan",
+"Tioga",
+"Tompkins",
+"Ulster",
+"Yates",
+"Niagara"
+],
+"NJ": [
+"Atlantic",
+"Bergen",
+"Burlington",
+"Camden",
+"Cape May",
+"Cumberland",
+"Essex",
+"Gloucester",
+"Hudson",
+"Mercer",
+"Middlesex",
+"Monmouth",
+"Ocean",
+"Salem",
+"Union",
+"Somerset",
+"Sussex",
+"Morris",
+"Passaic"
+],
+"FL": [
+"Alachua",
+"Baker",
+"Bay",
+"Bradford",
+"Brevard",
+"Broward",
+"Charlotte",
+"Citrus",
+"Clay",
+"Collier",
+"Columbia",
+"De Soto",
+"Duval",
+"Flagler",
+"Gilchrist",
+"Glades",
+"Hardee",
+"Hendry",
+"Hernando",
+"Highlands",
+"Hillsborough",
+"Holmes",
+"Indian River",
+"Jackson",
+"Lake",
+"Lee",
+"Levy",
+"Manatee",
+"Marion",
+"Martin",
+"Miami-Dade",
+"Nassau",
+"Okaloosa",
+"Okeechobee",
+"Orange",
+"Osceola",
+"Polk",
+"Putnam",
+"St. Johns",
+"St. Lucie",
+"Santa Rosa",
+"Sarasota",
+"Seminole",
+"Sumter",
+"Union",
+"Volusia",
+"Walton",
+"Washington"
+],
+"PA": [
+"Adams",
+"Allegheny",
+"Berks",
+"Bradford",
+"Bucks",
+"Butler",
+"Carbon",
+"Chester",
+"Clarion",
+"Clinton",
+"Columbia",
+"Crawford",
+"Cumberland",
+"Dauphin",
+"Delaware",
+"Erie",
+"Franklin",
+"Indiana",
+"Lackawanna",
+"Lancaster",
+"Lehigh",
+"Luzerne",
+"McKean",
+"Mercer",
+"Monroe",
+"Montgomery",
+"Northampton",
+"Philadelphia",
+"Potter",
+"Schuylkill",
+"Sullivan",
+"Susquehanna",
+"Tioga",
+"Venango",
+"Warren",
+"Wayne"
+],
+"MD": [
+"Baltimore",
+"Calvert",
+"Charles",
+"St. Mary's",
+"Howard",
+"Anne Arundel",
+"Harford",
+"Montgomery",
+"Somerset",
+"Frederick",
+"Carroll",
+"Washington",
+"Caroline",
+"Queen Anne's",
+"Wicomico",
+"Dorchester",
+"Prince George's",
+"Worcester",
+"Talbot"
+],
+"NC": [
+"Alexander",
+"Beaufort",
+"Bladen",
+"Brunswick",
+"Burke",
+"Cabarrus",
+"Caldwell",
+"Carteret",
+"Caswell",
+"Catawba",
+"Columbus",
+"Craven",
+"Cumberland",
+"Davidson",
+"Duplin",
+"Durham",
+"Forsyth",
+"Franklin",
+"Granville",
+"Guilford",
+"Iredell",
+"Johnston",
+"Lincoln",
+"Mecklenburg",
+"New Hanover",
+"Onslow",
+"Orange",
+"Pender",
+"Person",
+"Pitt",
+"Robeson",
+"Rowan",
+"Vance",
+"Gaston"
+],
+"SC": [
+"Abbeville",
+"Anderson",
+"Berkeley",
+"Charleston",
+"Cherokee",
+"Chester",
+"Dillon",
+"Dorchester",
+"Georgetown",
+"Greenville",
+"Horry",
+"Lancaster",
+"Laurens",
+"Lexington",
+"Oconee",
+"Pickens",
+"Richland",
+"York"
+],
+"VA": [
+"Albemarle",
+"Appomattox",
+"Augusta",
+"Campbell",
+"Chesapeake",
+"Chesterfield",
+"Colonial Heights",
+"Franklin",
+"Halifax",
+"Hampton",
+"Henry",
+"Hopewell",
+"Isle Of Wight",
+"Mecklenburg",
+"Newport News",
+"Norfolk",
+"Petersburg",
+"Pittsylvania",
+"Portsmouth",
+"Prince George",
+"Richmond",
+"Roanoke City",
+"Salem",
+"Suffolk",
+"Virginia Beach",
+"Williamsburg"
+],
+"DE": [
+"Kent",
+"New Castle",
+"Sussex"
+],
+"IL": [
+"Boone",
+"Brown",
+"Bureau",
+"Cass",
+"Champaign",
+"Christian",
+"Clinton",
+"Cook",
+"DeKalb",
+"DuPage",
+"Fulton",
+"Grundy",
+"Henry",
+"Iroquois",
+"Jo Daviess",
+"Kane",
+"Kankakee",
+"Kendall",
+"La Salle",
+"Lake",
+"Lee",
+"Macon",
+"Macoupin",
+"Madison",
+"McHenry",
+"Mercer",
+"Morgan",
+"Ogle",
+"Peoria",
+"Pike",
+"Rock Island",
+"Sangamon",
+"Schuyler",
+"Scott",
+"St. Clair",
+"Tazewell",
+"Winnebago"
+],
+"LA": [
+"Acadia",
+"Ascension",
+"Assumption",
+"Avoyelles",
+"Caldwell",
+"Claiborne",
+"DeSoto",
+"East Baton Rouge",
+"Evangeline",
+"Franklin",
+"Grant",
+"Iberia",
+"Jackson",
+"Jefferson",
+"Jefferson Davis",
+"Lafayette",
+"Lincoln",
+"Livingston",
+"Morehouse",
+"Natchitoches",
+"Orleans",
+"Ouachita",
+"Plaquemines",
+"Rapides",
+"Richland",
+"St. Bernard",
+"St. Charles",
+"St. Helena",
+"St. James",
+"St. Martin",
+"St. Tammany",
+"St. John the Baptist",
+"St. Landry",
+"Tangipahoa",
+"Union",
+"Vermilion",
+"West Baton Rouge",
+"Winn",
+"Terrebonne"
+],
+"TX": [
+"Bastrop",
+"Bell",
+"Brazoria",
+"Brown",
+"Callahan",
+"Camp",
+"Coleman",
+"Collin",
+"Comanche",
+"Dallas",
+"Denton",
+"Eastland",
+"Ellis",
+"Erath",
+"Galveston",
+"Grayson",
+"Gregg",
+"Hardin",
+"Harris",
+"Hill",
+"Hood",
+"Hunt",
+"Jasper",
+"Jefferson",
+"Jim Wells",
+"Johnson",
+"Kaufman",
+"Liberty",
+"Marion",
+"Mills",
+"Navarro",
+"Nueces",
+"Orange",
+"Parker",
+"Rockwall",
+"Stephens",
+"Trinity",
+"Tyler",
+"Upshur",
+"Walker",
+"Webb",
+"Williamson",
+"Wise",
+"Wood"
+],
+"TN": [
+"Anderson",
+"Chester",
+"Cocke",
+"Crockett",
+"Dyer",
+"Greene",
+"Hancock",
+"Hawkins",
+"Henderson",
+"Henry",
+"Lake",
+"Obion",
+"Shelby",
+"Washington",
+"Weakley",
+"Robertson",
+"Sumner",
+"Macon",
+"Montgomery",
+"Davidson",
+"Wilson",
+"Tipton"
+],
+"MS": [
+"Copiah",
+"Choctaw",
+"Covington",
+"DeSoto",
+"Forrest",
+"George",
+"Hancock",
+"Harrison",
+"Hinds",
+"Jackson",
+"Lamar",
+"Lawrence",
+"Lincoln",
+"Madison",
+"Marion",
+"Olive Branch (DeSoto Co.)",
+"Pearl River",
+"Pike",
+"Rankin",
+"Sharkey",
+"Simpson",
+"Smith",
+"Southaven (DeSoto Co.)",
+"Stone",
+"Warren",
+"Yazoo"
+],
+"WI": [
+"Ashland",
+"Barron",
+"Bayfield",
+"Chippewa",
+"Clark",
+"Douglas",
+"Kenosha",
+"Langlade",
+"Lincoln",
+"Marathon",
+"Milwaukee",
+"Oconto",
+"Oneida",
+"Racine",
+"Sawyer",
+"Shawano",
+"Taylor",
+"Vilas",
+"Washburn",
+"Ozaukee",
+"Iowa",
+"Richland",
+"Sauk",
+"Burnett"
+],
+"IN": [
+"Adams",
+"Allen",
+"Carroll",
+"Cass",
+"Clinton",
+"DeKalb",
+"Grant",
+"Huntington",
+"LaPorte",
+"Madison",
+"Marion",
+"Noble",
+"Steuben",
+"Tippecanoe",
+"White",
+"Whitley",
+"Lake",
+"Jasper",
+"Newton",
+"Kosciusko"
+],
+"AL": [
+"Blount",
+"Calhoun",
+"Jefferson",
+"Montgomery",
+"Pike",
+"St. Clair",
+"Shelby",
+"Talladega",
+"Chambers",
+"Lee",
+"Russell"
+],
+"MA": [
+"Franklin",
+"Hampden",
+"Worcester",
+"Plymouth",
+"Bristol",
+"Essex",
+"Hampshire"
+],
+"MO": [
+"Franklin",
+"Jefferson",
+"Lincoln",
+"St. Charles",
+"St. Louis",
+"Warren"
+],
+"DC": [
+"Full District"
+],
+"NH": [
+"Belknap",
+"Hillsborough",
+"Merrimack",
+"Rockingham",
+"Strafford"
+],
+"KS": [
+"Sedgwick",
+"Shawnee",
+"Johnson",
+"Wyandotte",
+"Leavenworth",
+"Douglas"
+],
+"CT": [
+"Fairfield",
+"Harford",
+"Middlesex",
+"New Haven",
+"New London",
+"Windham",
+"Litchfield",
+"Tolland"
+],
+"KY": [
+"Henderson",
+"Daviess",
+"Madison",
+"Fayette",
+"Bourbon",
+"Clark",
+"Estill",
+"Garrard",
+"Lincoln",
+"Boyle"
+],
+"MN": [
+"Aitkin",
+"Anoka",
+"Benton",
+"Dakota",
+"Douglas",
+"Hennepin",
+"Isanti",
+"Lake",
+"Meeker",
+"Mille Lacs",
+"Morrison",
+"Pine",
+"Ramsey",
+"Rice",
+"St. Louis",
+"Sherburne",
+"Stearns",
+"Wright"
+],
+"MI": [
+"Cheboygan",
+"Otsego",
+"Montmorency",
+"Presque Isle",
+"Alcona",
+"Arenac",
+"Gladwin",
+"Clare",
+"Roscommon",
+"Crawford",
+"Ogemaw",
+"Oscoda",
+"Iosco",
+"Lenawee",
+"Marquette",
+"Luce",
+"Alger",
+"Delta",
+"Schoolcraft",
+"Isabella",
+"Livingston"
+],
+"GA": [
+"Bibb",
+"Bleckley",
+"Camden",
+"Carroll",
+"Chatham",
+"Cherokee",
+"Clayton",
+"Cobb",
+"Coweta",
+"Decatur",
+"DeKalb",
+"Douglas",
+"Fayette",
+"Fulton",
+"Glynn",
+"Gwinnett",
+"Harris",
+"Henry",
+"Houston",
+"Laurens",
+"Liberty",
+"McIntosh",
+"Muscogee",
+"Peach",
+"Pulaski",
+"Rockdale",
+"Spalding",
+"Troup",
+"Twiggs"
+],
+"OH": [
+"Ashtabula",
+"Athens",
+"Coshocton",
+"Cuyahoga",
+"Darke",
+"Erie",
+"Fairfield",
+"Franklin",
+"Geauga",
+"Guernsey",
+"Hardin",
+"Hocking",
+"Jackson",
+"Lake",
+"Licking",
+"Logan",
+"Lorain",
+"Lucas",
+"Mahoning",
+"Marion",
+"Medina",
+"Monroe",
+"Muskingum",
+"Ottawa",
+"Perry",
+"Portage",
+"Preble",
+"Sandusky",
+"Scioto",
+"Seneca",
+"Stark",
+"Summit",
+"Trumbull",
+"Tuscarawas",
+"Union",
+"Vinton",
+"Knox"
+]
+}
+}
